@@ -7974,7 +7974,7 @@
     },
     {
       "name_de": "Ätherklinge",
-      "name_en": "Æther Blade",
+      "name_en": "Æther Blade {renegade}",
       "name_cn": "以太之刃",
       "name_fr": "Lame d’Éther",
       "name_it": "Æther Lama",
@@ -7983,7 +7983,7 @@
       "onePerArmy": true,
       "stackable": true,
       "maximum": 1,
-      "name": "æther blade",
+      "name": "æther blade renegade",
       "armyComposition": "doc-renegade"
     },
     {
@@ -8001,7 +8001,7 @@
     },
     {
       "name_de": "Geflügelter Alptraum",
-      "name_en": "Winged Horror",
+      "name_en": "Winged Horror {renegade}",
       "name_cn": "有翼惧物",
       "name_fr": "Horreur Ailée",
       "name_it": "Winged Horror",
@@ -8010,7 +8010,7 @@
       "onePerArmy": true,
       "stackable": true,
       "maximum": 1,
-      "name": "winged horror",
+      "name": "winged horror renegade",
       "armyComposition": "doc-renegade"
     },
     {
@@ -8096,14 +8096,14 @@
     },
     {
       "name_de": "Banner des unheiligen Sieges",
-      "name_en": "Banner of Unholy Victory",
+      "name_en": "Banner of Unholy Victory {renegade}",
       "name_cn": "不洁胜利之旗",
       "name_fr": "Bannière de Victoire Impie",
       "name_it": "Banner of Unholy Victory",
       "points": 50,
       "type": "daemonic-icon-common",
       "onePerArmy": true,
-      "name": "banner of unholy victory",
+      "name": "banner of unholy victory renegade",
       "armyComposition": "doc-renegade"
     },
     {
@@ -8154,7 +8154,22 @@
       "onePerArmy": true,
       "stackable": true,
       "maximum": 1,
-      "name": "spell eater"
+      "name": "spell eater",
+      "armyComposition": "daemons-of-chaos"
+    },
+    {
+      "name_de": "Spruchfresser",
+      "name_en": "Spell Eater {renegade}",
+      "name_cn": "吞法者",
+      "name_fr": "Mange Sorts",
+      "name_it": "Spell Eater",
+      "points": 50,
+      "type": "daemonic-gift-khorne",
+      "onePerArmy": true,
+      "stackable": true,
+      "maximum": 1,
+      "name": "spell eater renegade",
+      "armyComposition": "doc-renegade"
     },
     {
       "name_de": "Rüstung des Khorne",
@@ -8284,7 +8299,20 @@
       "points": 30,
       "type": "daemonic-icon-khorne",
       "onePerArmy": true,
-      "name": "icon of endless war"
+      "name": "icon of endless war",
+      "armyComposition": "daemons-of-chaos"
+    },
+    {
+      "name_de": "Ikone des ewigen Krieges",
+      "name_en": "Icon of Endless War {renegade}",
+      "name_cn": "无尽之战圣像",
+      "name_fr": "Icône de Guerre Infinie",
+      "name_it": "Icon of Endless War",
+      "points": 30,
+      "type": "daemonic-icon-khorne",
+      "onePerArmy": true,
+      "name": "icon of endless war renegade",
+      "armyComposition": "doc-renegade"
     }
   ],
   "daemonic-gifts-nurgle": [
@@ -8428,7 +8456,22 @@
       "onePerArmy": true,
       "stackable": true,
       "maximum": 1,
-      "name": "infernal enrapturess"
+      "name": "infernal enrapturess",
+      "armyComposition": "daemons-of-chaos"
+    },
+    {
+      "name_de": "Hinreissende Höllenmuse",
+      "name_en": "Infernal Enrapturess {renegade}",
+      "name_cn": "地狱奏乐者",
+      "name_fr": "Enchantement Infernal",
+      "name_it": "Infernal Enrapturess",
+      "points": 50,
+      "type": "daemonic-gift-slaanesh",
+      "onePerArmy": true,
+      "stackable": true,
+      "maximum": 1,
+      "name": "infernal enrapturess renegade",
+      "armyComposition": "doc-renegade"
     },
     {
       "name_de": "Reiz des Slaanesh",
@@ -8493,7 +8536,21 @@
       "stackable": true,
       "type": "daemonic-gift-slaanesh",
       "onePerArmy": false,
-      "name": "enrapturing gaze"
+      "name": "enrapturing gaze",
+      "armyComposition": "daemons-of-chaos"
+    },
+    {
+      "name_de": "Fesselnder Blick*",
+      "name_en": "Enrapturing Gaze* {renegade}",
+      "name_cn": "狂喜凝视*",
+      "name_fr": "Regard Envoûtant*",
+      "name_it": "Enrapturing Gaze*",
+      "points": 20,
+      "stackable": true,
+      "type": "daemonic-gift-slaanesh",
+      "onePerArmy": false,
+      "name": "enrapturing gaze renegade",
+      "armyComposition": "doc-renegade"
     }
   ],
   "daemonic-icons-slaanesh": [
@@ -8511,14 +8568,14 @@
     },
     {
       "name_de": "Banner of Acquiescence",
-      "name_en": "Banner of Acquiescence",
+      "name_en": "Banner of Acquiescence {renegade}",
       "name_cn": "屈从之旗",
       "name_fr": "Bannière du Consentement",
       "name_it": "Banner of Acquiescence",
       "points": 50,
       "type": "daemonic-icon-slaanesh",
       "onePerArmy": true,
-      "name": "banner of acquiescence",
+      "name": "banner of acquiescence renegade",
       "armyComposition": "doc-renegade"
     },
     {
@@ -8534,14 +8591,14 @@
     },
     {
       "name_de": "",
-      "name_en": "Icon of the Eternal Dance",
+      "name_en": "Icon of the Eternal Dance {renegade}",
       "name_cn": "",
       "name_fr": "",
       "name_it": "",
       "points": 25,
       "type": "daemonic-icon-slaanesh",
       "onePerArmy": true,
-      "name": "icon of the eternal dance",
+      "name": "icon of the eternal dance renegade",
       "armyComposition": "doc-renegade"
     },
     {
@@ -8558,14 +8615,14 @@
     },
     {
       "name_de": "Sirenenstandarte",
-      "name_en": "Siren Standard",
+      "name_en": "Siren Standard {renegade}",
       "name_cn": "塞壬战旗",
       "name_fr": "Étendard de la Sirène",
       "name_it": "Siren Standard",
       "points": 15,
       "type": "daemonic-icon-slaanesh",
       "onePerArmy": true,
-      "name": "siren standard",
+      "name": "siren standard renegade",
       "armyComposition": "doc-renegade"
     }
   ],
@@ -8599,7 +8656,7 @@
     },
     {
       "name_de": "Schicksal des Tzeentch",
-      "name_en": "Will of Tzeentch",
+      "name_en": "Will of Tzeentch {renegade}",
       "name_cn": "奸奇意志",
       "name_fr": "Volonté de Tzeentch",
       "name_it": "Will of Tzeentch",
@@ -8608,7 +8665,7 @@
       "onePerArmy": true,
       "stackable": true,
       "maximum": 1,
-      "name": "will of tzeentch",
+      "name": "will of tzeentch renegade",
       "armyComposition": "doc-renegade"
     },
     {
@@ -8694,14 +8751,14 @@
     },
     {
       "name_de": "Banner of Discord",
-      "name_en": "Banner of Discord",
+      "name_en": "Banner of Discord {renegade}",
       "name_cn": "不谐之旗",
       "name_fr": "Bannière de Discorde",
       "name_it": "Banner of Discord",
       "points": 50,
       "type": "daemonic-icon-tzeentch",
       "onePerArmy": true,
-      "name": "banner of discord",
+      "name": "banner of discord renegade",
       "armyComposition": "doc-renegade"
     },
     {
@@ -8740,7 +8797,7 @@
       "type": "daemonic-icon-tzeentch",
       "onePerArmy": false,
       "maximum": 1,
-      "name": "icon of sorcery",
+      "name": "icon of sorcery renegade",
       "armyComposition": "doc-renegade"
     }
   ],

@@ -1,0 +1,999 @@
+{
+  "beasts of nurgle renegade": {
+    "url": "unit/beasts-of-nurgle-renegade",
+    "stats": [
+      {
+        "Name": "Beast of Nurgle",
+        "M": "5",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "5",
+        "W": "4",
+        "I": "2",
+        "A": "D6+1",
+        "Ld": "7"
+      }
+    ]
+  },
+  "blood throne of khorne renegade": {
+    "url": "unit/blood-throne-of-khorne-renegade",
+    "stats": [
+      {
+        "Name": "Blood Throne",
+        "M": "7",
+        "WS": "5",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "4",
+        "I": "2",
+        "A": "3",
+        "Ld": "-"
+      },
+      {
+        "Name": "Bloodletter Crew (x2)",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "7"
+      }
+    ]
+  },
+  "bloodcrushers of khorne renegade": {
+    "url": "unit/bloodcrushers-of-khorne-renegade",
+    "stats": [
+      {
+        "Name": "Bloodletter",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "3",
+        "I": "4",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Bloodreaper",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "3",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Juggernaut of Khorne",
+        "M": "7",
+        "WS": "4",
+        "BS": "-",
+        "S": "5",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "2",
+        "Ld": "-"
+      }
+    ]
+  },
+  "bloodletters of khorne renegade": {
+    "url": "unit/bloodletters-of-khorne-renegade",
+    "stats": [
+      {
+        "Name": "Bloodletter",
+        "M": "5",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Bloodreaper",
+        "M": "5",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "bloodthirster renegade": {
+    "url": "unit/bloodthirster-renegade",
+    "stats": [
+      {
+        "Name": "Bloodthirster",
+        "M": "8",
+        "WS": "10",
+        "BS": "5",
+        "S": "6",
+        "T": "6",
+        "W": "6",
+        "I": "7",
+        "A": "6",
+        "Ld": "9"
+      }
+    ]
+  },
+  "blue horrors of tzeentch renegade": {
+    "url": "unit/blue-horrors-of-tzeentch-renegade",
+    "stats": [
+      {
+        "Name": "Blue Horror",
+        "M": "4",
+        "WS": "2",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Ectoplasmic Horror",
+        "M": "4",
+        "WS": "2",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "brimstone horrors of tzeentch renegade": {
+    "url": "unit/brimstone-horrors-of-tzeentch-renegade",
+    "stats": [
+      {
+        "Name": "Brimstone Horrors",
+        "M": "5",
+        "WS": "2",
+        "BS": "2",
+        "S": "2",
+        "T": "3",
+        "W": "6",
+        "I": "2",
+        "A": "4",
+        "Ld": "5"
+      }
+    ]
+  },
+  "burning chariot of tzeentch renegade": {
+    "url": "unit/burning-chariot-of-tzeentch-renegade",
+    "stats": [
+      {
+        "Name": "Burning Chariot of Tzeentch",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "4",
+        "T": "4",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Exalted Flamer",
+        "M": "-",
+        "WS": "2",
+        "BS": "5",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Blue Horror Crew (x3)",
+        "M": "-",
+        "WS": "2",
+        "BS": "3",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "3",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Screamer (x2)",
+        "M": "1",
+        "WS": "3",
+        "BS": "-",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "2",
+        "Ld": "-"
+      }
+    ]
+  },
+  "chaos furies of khorne renegade": {
+    "url": "unit/chaos-furies-renegade",
+    "stats": [
+      {
+        "Name": "Chaos Fury",
+        "M": "4",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "5"
+      }
+    ]
+  },
+  "chaos furies of nurgle renegade": {
+    "url": "unit/chaos-furies-renegade",
+    "stats": [
+      {
+        "Name": "Chaos Fury",
+        "M": "4",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "5"
+      }
+    ]
+  },
+  "chaos furies of slaanesh renegade": {
+    "url": "unit/chaos-furies-renegade",
+    "stats": [
+      {
+        "Name": "Chaos Fury",
+        "M": "4",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "5"
+      }
+    ]
+  },
+  "chaos furies of tzeentch renegade": {
+    "url": "unit/chaos-furies-renegade",
+    "stats": [
+      {
+        "Name": "Chaos Fury",
+        "M": "4",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "5"
+      }
+    ]
+  },
+  "chaos furies renegade": {
+    "url": "unit/chaos-furies-renegade",
+    "stats": [
+      {
+        "Name": "Chaos Fury",
+        "M": "4",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "5"
+      }
+    ]
+  },
+  "daemon prince daemons of chaos renegade": {
+    "url": "unit/daemon-prince-renegade",
+    "stats": [
+      {
+        "Name": "Daemon Prince",
+        "M": "6",
+        "WS": "7",
+        "BS": "5",
+        "S": "6",
+        "T": "5",
+        "W": "4",
+        "I": "7",
+        "A": "5",
+        "Ld": "9"
+      }
+    ]
+  },
+  "daemon prince renegade": {
+    "url": "unit/daemon-prince-renegade",
+    "stats": [
+      {
+        "Name": "Daemon Prince",
+        "M": "6",
+        "WS": "7",
+        "BS": "5",
+        "S": "6",
+        "T": "5",
+        "W": "4",
+        "I": "7",
+        "A": "5",
+        "Ld": "9"
+      }
+    ]
+  },
+  "daemonettes of slaanesh renegade": {
+    "url": "unit/daemonettes-of-slaanesh-renegade",
+    "stats": [
+      {
+        "Name": "Daemonette",
+        "M": "6",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Alluress",
+        "M": "6",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "daemonic herald of khorne renegade": {
+    "url": "unit/daemonic-herald-of-khorne-renegade",
+    "stats": [
+      {
+        "Name": "Herald of Khorne",
+        "M": "5",
+        "WS": "7",
+        "BS": "4",
+        "S": "5",
+        "T": "4",
+        "W": "2",
+        "I": "6",
+        "A": "3",
+        "Ld": "8"
+      }
+    ]
+  },
+  "daemonic herald of nurgle renegade": {
+    "url": "unit/daemonic-herald-of-nurgle-renegade",
+    "stats": [
+      {
+        "Name": "Herald of Nurgle",
+        "M": "4",
+        "WS": "5",
+        "BS": "5",
+        "S": "5",
+        "T": "5",
+        "W": "2",
+        "I": "4",
+        "A": "3",
+        "Ld": "8"
+      }
+    ]
+  },
+  "daemonic herald of slaanesh renegade": {
+    "url": "unit/daemonic-herald-of-slaanesh-renegade",
+    "stats": [
+      {
+        "Name": "Herald of Slaanesh",
+        "M": "6",
+        "WS": "6",
+        "BS": "4",
+        "S": "4",
+        "T": "3",
+        "W": "2",
+        "I": "6",
+        "A": "3",
+        "Ld": "8"
+      }
+    ]
+  },
+  "daemonic herald of tzeentch renegade": {
+    "url": "unit/daemonic-herald-of-tzeentch-renegade",
+    "stats": [
+      {
+        "Name": "Herald of Tzeentch",
+        "M": "4",
+        "WS": "3",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "2",
+        "Ld": "8"
+      }
+    ]
+  },
+  "disc of tzeentch renegade": {
+    "url": "unit/disc-of-tzeentch-renegade",
+    "stats": [
+      {
+        "Name": "Disc of Tzeentch",
+        "M": "1",
+        "WS": "3",
+        "BS": "-",
+        "S": "4",
+        "T": "(+1)",
+        "W": "-",
+        "I": "4",
+        "A": "3",
+        "Ld": "-"
+      }
+    ]
+  },
+  "exalted seeker chariot of slaanesh renegade": {
+    "url": "unit/exalted-seeker-chariot-of-slaanesh-renegade",
+    "stats": [
+      {
+        "Name": "Exalted Seeker Chariot",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "4",
+        "T": "4",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Daemonette Crew (x3)",
+        "M": "-",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Steed of Slaanesh (x4)",
+        "M": "9",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "fiends of slaanesh renegade": {
+    "url": "unit/fiends-of-slaanesh-renegade",
+    "stats": [
+      {
+        "Name": "Fiend of Slaanesh",
+        "M": "8",
+        "WS": "4",
+        "BS": "0",
+        "S": "4",
+        "T": "4",
+        "W": "3",
+        "I": "6",
+        "A": "3",
+        "Ld": "7"
+      }
+    ]
+  },
+  "flamers of tzeentch renegade": {
+    "url": "unit/flamers-of-tzeentch-renegade",
+    "stats": [
+      {
+        "Name": "Flamer",
+        "M": "6",
+        "WS": "2",
+        "BS": "4",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Pyroclaster",
+        "M": "6",
+        "WS": "2",
+        "BS": "5",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Exalted Flamer",
+        "M": "6",
+        "WS": "2",
+        "BS": "5",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "flesh hounds of khorne renegade": {
+    "url": "unit/flesh-hounds-of-khorne-renegade",
+    "stats": [
+      {
+        "Name": "Flesh Hound",
+        "M": "8",
+        "WS": "5",
+        "BS": "0",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "great unclean one renegade": {
+    "url": "unit/great-unclean-one-renegade",
+    "stats": [
+      {
+        "Name": "Great Unclean One",
+        "M": "6",
+        "WS": "6",
+        "BS": "3",
+        "S": "6",
+        "T": "7",
+        "W": "7",
+        "I": "4",
+        "A": "5",
+        "Ld": "9"
+      }
+    ]
+  },
+  "hellflayer of slaanesh renegade": {
+    "url": "unit/hellflayer-of-slaanesh-renegade",
+    "stats": [
+      {
+        "Name": "Hellflayer",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "4",
+        "T": "4",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Exalted Alluress",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Daemonette Crew (x2)",
+        "M": "-",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Steed of Slaanesh (x2)",
+        "M": "9",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "juggernaut of khorne renegade": {
+    "url": "unit/juggernaut-of-khorne-renegade",
+    "stats": [
+      {
+        "Name": "Juggernaut of Khorne",
+        "M": "7",
+        "WS": "4",
+        "BS": "-",
+        "S": "5",
+        "T": "(+1)",
+        "W": "(+1)",
+        "I": "2",
+        "A": "2",
+        "Ld": "-"
+      }
+    ]
+  },
+  "keeper of secrets renegade": {
+    "url": "unit/keeper-of-secrets-renegade",
+    "stats": [
+      {
+        "Name": "Keeper of Secrets",
+        "M": "10",
+        "WS": "9",
+        "BS": "6",
+        "S": "6",
+        "T": "6",
+        "W": "6",
+        "I": "8",
+        "A": "6",
+        "Ld": "9"
+      }
+    ]
+  },
+  "lord of change renegade": {
+    "url": "unit/lord-of-change-renegade",
+    "stats": [
+      {
+        "Name": "Lord of Change",
+        "M": "6",
+        "WS": "6",
+        "BS": "6",
+        "S": "6",
+        "T": "6",
+        "W": "6",
+        "I": "6",
+        "A": "4",
+        "Ld": "9"
+      }
+    ]
+  },
+  "nurglings renegade": {
+    "url": "unit/nurglings-renegade",
+    "stats": [
+      {
+        "Name": "Nurglings",
+        "M": "4",
+        "WS": "2",
+        "BS": "0",
+        "S": "2",
+        "T": "3",
+        "W": "7",
+        "I": "2",
+        "A": "D3+1",
+        "Ld": "5"
+      }
+    ]
+  },
+  "palanquin of nurgle renegade": {
+    "url": "unit/palanquin-of-nurgle-renegade",
+    "stats": [
+      {
+        "Name": "Palanquin of Nurgle",
+        "M": "4",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "(+4)",
+        "I": "3",
+        "A": "D6+1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "pink horrors of tzeentch renegade": {
+    "url": "unit/pink-horrors-of-tzeentch-renegade",
+    "stats": [
+      {
+        "Name": "Pink Horror",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Iridescent Horror",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "plague drones of nurgle renegade": {
+    "url": "unit/plague-drones-of-nurgle-renegade",
+    "stats": [
+      {
+        "Name": "Plaguebearer",
+        "M": "-",
+        "WS": "3",
+        "BS": "3",
+        "S": "4",
+        "T": "5",
+        "W": "3",
+        "I": "2",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Plagueridden",
+        "M": "-",
+        "WS": "3",
+        "BS": "3",
+        "S": "4",
+        "T": "5",
+        "W": "3",
+        "I": "2",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Rot Fly",
+        "M": "1",
+        "WS": "3",
+        "BS": "-",
+        "S": "5",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "3",
+        "Ld": "-"
+      }
+    ]
+  },
+  "plaguebearers of nurgle renegade": {
+    "url": "unit/plaguebearers-of-nurgle-renegade",
+    "stats": [
+      {
+        "Name": "Plaguebearer",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "2",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Plagueridden",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "2",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "screamers of tzeentch renegade": {
+    "url": "unit/screamers-of-tzeentch-renegade",
+    "stats": [
+      {
+        "Name": "Screamer",
+        "M": "1",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "seeker chariot of slaanesh renegade": {
+    "url": "unit/seeker-chariot-of-slaanesh-renegade",
+    "stats": [
+      {
+        "Name": "Seeker Chariot",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "4",
+        "T": "4",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Daemonette Crew (x2)",
+        "M": "-",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Steed of Slaanesh (x2)",
+        "M": "9",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "seekers of slaanesh renegade": {
+    "url": "unit/seekers-of-slaanesh-renegade",
+    "stats": [
+      {
+        "Name": "Seeker",
+        "M": "-",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Heartseeker",
+        "M": "-",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Steed of Slaanesh",
+        "M": "9",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "skull cannon of khorne renegade": {
+    "url": "unit/skull-cannon-of-khorne-renegade",
+    "stats": [
+      {
+        "Name": "Skull Cannon",
+        "M": "7",
+        "WS": "5",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "4",
+        "I": "2",
+        "A": "3",
+        "Ld": "-"
+      },
+      {
+        "Name": "Bloodletter Crew (x2)",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "7"
+      }
+    ]
+  },
+  "soul grinder of khorne renegade": {
+    "url": "unit/soul-grinder-renegade",
+    "stats": [
+      {
+        "Name": "Soul Grinder",
+        "M": "8",
+        "WS": "3",
+        "BS": "3",
+        "S": "6",
+        "T": "6",
+        "W": "6",
+        "I": "3",
+        "A": "4",
+        "Ld": "7"
+      }
+    ]
+  },
+  "soul grinder renegade": {
+    "url": "unit/soul-grinder-renegade",
+    "stats": [
+      {
+        "Name": "Soul Grinder",
+        "M": "8",
+        "WS": "3",
+        "BS": "3",
+        "S": "6",
+        "T": "6",
+        "W": "6",
+        "I": "3",
+        "A": "4",
+        "Ld": "7"
+      }
+    ]
+  }
+}
