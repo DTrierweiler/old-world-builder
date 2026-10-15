@@ -4,7 +4,7 @@ import renegadeRulesMap from "./renegade-rules-map.json";
 import renegadeRulesExport from "./renegade-rules-export.json";
 
 export const WHFB_RULES_URL = "https://tow.whfb.app";
-export const RENEGADE_RULES_URL = "https://dtrierweiler.github.io/renegade-rules";
+export const RENEGADE_RULES_URL = "https://renegade-rules.sharkbyte539.workers.dev";
 
 const additionalOWBRules = {
   "throwing spears": { url: "weapons-of-war/throwing-spear" },
@@ -356,17 +356,11 @@ export const rulesMap = {
   ...renegadeRules,
 };
 
-// Called on render, so the theme follows OWB's color scheme setting
-const getRenegadeRuleData = (path, exportData) => {
-  const theme = document.documentElement.classList.contains("dark")
-    ? "dark"
-    : "light";
-
-  return {
-    ...exportData,
-    url: `${RENEGADE_RULES_URL}/${path}?minimal=true&theme=${theme}`,
-  };
-};
+// Always light: in dark mode, RulesIndex.css inverts the iframe like tow.whfb.app
+const getRenegadeRuleData = (path, exportData) => ({
+  ...exportData,
+  url: `${RENEGADE_RULES_URL}/${path}?minimal=true&theme=light`,
+});
 
 /**
  * Resolves a rule name to its rules index entry.
