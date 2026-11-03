@@ -1,4 +1,21 @@
 {
+  "bat swarms renegade": {
+    "url": "unit/bat-swarms-renegade",
+    "stats": [
+      {
+        "Name": "Bat Swarm",
+        "M": "1",
+        "WS": "3",
+        "BS": "0",
+        "S": "2",
+        "T": "2",
+        "W": "5",
+        "I": "4",
+        "A": "5",
+        "Ld": "3"
+      }
+    ]
+  },
   "beasts of nurgle renegade": {
     "url": "unit/beasts-of-nurgle-renegade",
     "stats": [
@@ -13,6 +30,129 @@
         "I": "2",
         "A": "D6+1",
         "Ld": "7"
+      }
+    ]
+  },
+  "black coach renegade": {
+    "url": "unit/black-coach-renegade",
+    "stats": [
+      {
+        "Name": "Black Coach",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "6",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Wraith (x1)",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "2",
+        "Ld": "5"
+      },
+      {
+        "Name": "Nightmares (x2)",
+        "M": "8",
+        "WS": "3",
+        "BS": "-",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "black knights renegade": {
+    "url": "unit/black-knights-renegade",
+    "stats": [
+      {
+        "Name": "Black Knight",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "6"
+      },
+      {
+        "Name": "Hell Knight",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "6"
+      },
+      {
+        "Name": "Skeletal Steed",
+        "M": "8",
+        "WS": "2",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "blood knights renegade": {
+    "url": "unit/blood-knights-renegade",
+    "stats": [
+      {
+        "Name": "Blood Knight",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "4",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Kastellan",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "4",
+        "A": "3",
+        "Ld": "7"
+      },
+      {
+        "Name": "Nightmare",
+        "M": "7",
+        "WS": "3",
+        "BS": "-",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "1",
+        "Ld": "-"
       }
     ]
   },
@@ -231,6 +371,23 @@
       }
     ]
   },
+  "cairn wraith renegade": {
+    "url": "unit/cairn-wraith-renegade",
+    "stats": [
+      {
+        "Name": "Cairn Wraith",
+        "M": "6",
+        "WS": "4",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "3",
+        "I": "2",
+        "A": "2",
+        "Ld": "6"
+      }
+    ]
+  },
   "chaos furies of khorne renegade": {
     "url": "unit/chaos-furies-renegade",
     "stats": [
@@ -312,6 +469,146 @@
         "W": "1",
         "I": "4",
         "A": "1",
+        "Ld": "5"
+      }
+    ]
+  },
+  "corpse cart renegade": {
+    "url": "unit/corpse-cart-renegade",
+    "stats": [
+      {
+        "Name": "Corpse Cart",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "4",
+        "T": "4",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Corpsemaster (x1)",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "3",
+        "A": "1",
+        "Ld": "5"
+      },
+      {
+        "Name": "The Restless Dead",
+        "M": "4",
+        "WS": "1",
+        "BS": "0",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "1",
+        "A": "2D6",
+        "Ld": "-"
+      }
+    ]
+  },
+  "coven throne renegade": {
+    "url": "unit/coven-throne-renegade",
+    "stats": [
+      {
+        "Name": "Coven Throne",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Pallid Handmaidens (x2)",
+        "M": "-",
+        "WS": "5",
+        "BS": "3",
+        "S": "5",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      },
+      {
+        "Name": "Spirit Horde",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "1",
+        "A": "D6",
+        "Ld": "-"
+      }
+    ]
+  },
+  "crypt ghouls renegade": {
+    "url": "unit/crypt-ghouls-renegade",
+    "stats": [
+      {
+        "Name": "Crypt Ghoul",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "5"
+      },
+      {
+        "Name": "Crypt Ghast",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "3",
+        "Ld": "5"
+      }
+    ]
+  },
+  "crypt horrors renegade": {
+    "url": "unit/crypt-horrors-renegade",
+    "stats": [
+      {
+        "Name": "Crypt Horror",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "5",
+        "W": "3",
+        "I": "2",
+        "A": "3",
+        "Ld": "5"
+      },
+      {
+        "Name": "Crypt Haunter",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "4",
+        "T": "5",
+        "W": "3",
+        "I": "2",
+        "A": "4",
         "Ld": "5"
       }
     ]
@@ -447,6 +744,35 @@
       }
     ]
   },
+  "dire wolves renegade": {
+    "url": "unit/dire-wolves-renegade",
+    "stats": [
+      {
+        "Name": "Dire Wolf",
+        "M": "9",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "3"
+      },
+      {
+        "Name": "Doom Wolf",
+        "M": "9",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "3"
+      }
+    ]
+  },
   "disc of tzeentch renegade": {
     "url": "unit/disc-of-tzeentch-renegade",
     "stats": [
@@ -502,6 +828,23 @@
         "I": "5",
         "A": "1",
         "Ld": "-"
+      }
+    ]
+  },
+  "fell bats renegade": {
+    "url": "unit/fell-bats-renegade",
+    "stats": [
+      {
+        "Name": "Fell Bat",
+        "M": "1",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "2",
+        "Ld": "3"
       }
     ]
   },
@@ -580,6 +923,35 @@
       }
     ]
   },
+  "grave guard renegade": {
+    "url": "unit/grave-guard-renegade",
+    "stats": [
+      {
+        "Name": "Grave Guard",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Seneschal",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
   "great unclean one renegade": {
     "url": "unit/great-unclean-one-renegade",
     "stats": [
@@ -650,6 +1022,47 @@
       }
     ]
   },
+  "hexwraiths renegade": {
+    "url": "unit/hexwraiths-renegade",
+    "stats": [
+      {
+        "Name": "Hexwraith",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "2",
+        "A": "1",
+        "Ld": "5"
+      },
+      {
+        "Name": "Hellwraith",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "2",
+        "A": "2",
+        "Ld": "5"
+      },
+      {
+        "Name": "Skeletal Steed",
+        "M": "8",
+        "WS": "2",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
   "juggernaut of khorne renegade": {
     "url": "unit/juggernaut-of-khorne-renegade",
     "stats": [
@@ -698,6 +1111,81 @@
         "I": "6",
         "A": "4",
         "Ld": "9"
+      }
+    ]
+  },
+  "master necromancer renegade": {
+    "url": "unit/master-necromancer-renegade",
+    "stats": [
+      {
+        "Name": "Master Necromancer",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "3",
+        "I": "3",
+        "A": "2",
+        "Ld": "8"
+      }
+    ]
+  },
+  "mortis engine renegade": {
+    "url": "unit/mortis-engine-renegade",
+    "stats": [
+      {
+        "Name": "Mortis Engine",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Banshees (x3)",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "3",
+        "A": "1",
+        "Ld": "5"
+      },
+      {
+        "Name": "Spirit Horde",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "1",
+        "A": "D6",
+        "Ld": "-"
+      }
+    ]
+  },
+  "necromantic acolyte renegade": {
+    "url": "unit/necromantic-acolyte-renegade",
+    "stats": [
+      {
+        "Name": "Necromantic Acolyte",
+        "M": "4",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "1",
+        "Ld": "7"
       }
     ]
   },
@@ -933,6 +1421,52 @@
       }
     ]
   },
+  "skeletal steed vampire counts renegade": {
+    "url": "unit/skeletal-steed-vampire-counts-renegade",
+    "stats": [
+      {
+        "Name": "Skeletal Steed",
+        "M": "8",
+        "WS": "2",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "skeleton warriors renegade": {
+    "url": "unit/skeleton-warriors-renegade",
+    "stats": [
+      {
+        "Name": "Skeleton Warrior",
+        "M": "4",
+        "WS": "2",
+        "BS": "2",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "2",
+        "A": "1",
+        "Ld": "5"
+      },
+      {
+        "Name": "Skeleton Champion",
+        "M": "4",
+        "WS": "2",
+        "BS": "2",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "2",
+        "A": "2",
+        "Ld": "5"
+      }
+    ]
+  },
   "skull cannon of khorne renegade": {
     "url": "unit/skull-cannon-of-khorne-renegade",
     "stats": [
@@ -993,6 +1527,239 @@
         "I": "3",
         "A": "4",
         "Ld": "7"
+      }
+    ]
+  },
+  "spirit hosts renegade": {
+    "url": "unit/spirit-hosts-renegade",
+    "stats": [
+      {
+        "Name": "Spirit Host",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "4",
+        "I": "1",
+        "A": "4",
+        "Ld": "4"
+      }
+    ]
+  },
+  "strigoi ghoul king renegade": {
+    "url": "unit/strigoi-ghoul-king-renegade",
+    "stats": [
+      {
+        "Name": "Strigoi Ghoul King",
+        "M": "6",
+        "WS": "6",
+        "BS": "3",
+        "S": "5",
+        "T": "5",
+        "W": "3",
+        "I": "7",
+        "A": "5",
+        "Ld": "8"
+      }
+    ]
+  },
+  "terrorgheist mount renegade": {
+    "url": "unit/terrorgheist-mount-renegade",
+    "stats": [
+      {
+        "Name": "Terrorgheist",
+        "M": "6",
+        "WS": "3",
+        "BS": "-",
+        "S": "5",
+        "T": "(+1)",
+        "W": "(+5)",
+        "I": "3",
+        "A": "4",
+        "Ld": "-"
+      }
+    ]
+  },
+  "terrorgheist renegade": {
+    "url": "unit/terrorgheist-renegade",
+    "stats": [
+      {
+        "Name": "Terrorgheist",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "5",
+        "T": "6",
+        "W": "6",
+        "I": "3",
+        "A": "4",
+        "Ld": "4"
+      }
+    ]
+  },
+  "tomb banshee renegade": {
+    "url": "unit/tomb-banshee-renegade",
+    "stats": [
+      {
+        "Name": "Tomb Banshee",
+        "M": "6",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "1",
+        "Ld": "6"
+      }
+    ]
+  },
+  "vampire lord renegade": {
+    "url": "unit/vampire-lord-renegade",
+    "stats": [
+      {
+        "Name": "Vampire Lord",
+        "M": "6",
+        "WS": "7",
+        "BS": "5",
+        "S": "5",
+        "T": "5",
+        "W": "4",
+        "I": "6",
+        "A": "5",
+        "Ld": "9"
+      }
+    ]
+  },
+  "vampire thrall renegade": {
+    "url": "unit/vampire-thrall-renegade",
+    "stats": [
+      {
+        "Name": "Vampire Thrall",
+        "M": "6",
+        "WS": "6",
+        "BS": "4",
+        "S": "5",
+        "T": "4",
+        "W": "2",
+        "I": "5",
+        "A": "3",
+        "Ld": "7"
+      }
+    ]
+  },
+  "vargheists renegade": {
+    "url": "unit/vargheists-renegade",
+    "stats": [
+      {
+        "Name": "Vargheist",
+        "M": "6",
+        "WS": "4",
+        "BS": "0",
+        "S": "5",
+        "T": "4",
+        "W": "3",
+        "I": "4",
+        "A": "3",
+        "Ld": "7"
+      },
+      {
+        "Name": "Vargoyle",
+        "M": "6",
+        "WS": "4",
+        "BS": "0",
+        "S": "5",
+        "T": "4",
+        "W": "3",
+        "I": "4",
+        "A": "4",
+        "Ld": "7"
+      }
+    ]
+  },
+  "varghulf renegade": {
+    "url": "unit/varghulf-renegade",
+    "stats": [
+      {
+        "Name": "Varghulf",
+        "M": "8",
+        "WS": "5",
+        "BS": "0",
+        "S": "5",
+        "T": "5",
+        "W": "4",
+        "I": "4",
+        "A": "5",
+        "Ld": "4"
+      }
+    ]
+  },
+  "wight king renegade": {
+    "url": "unit/wight-king-renegade",
+    "stats": [
+      {
+        "Name": "Wight King",
+        "M": "4",
+        "WS": "5",
+        "BS": "0",
+        "S": "5",
+        "T": "5",
+        "W": "3",
+        "I": "4",
+        "A": "3",
+        "Ld": "9"
+      }
+    ]
+  },
+  "wight lord renegade": {
+    "url": "unit/wight-lord-renegade",
+    "stats": [
+      {
+        "Name": "Wight Lord",
+        "M": "4",
+        "WS": "4",
+        "BS": "0",
+        "S": "4",
+        "T": "5",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "8"
+      }
+    ]
+  },
+  "zombie dragon renegade": {
+    "url": "unit/zombie-dragon-renegade",
+    "stats": [
+      {
+        "Name": "Zombie Dragon",
+        "M": "6",
+        "WS": "4",
+        "BS": "-",
+        "S": "6",
+        "T": "(+1)",
+        "W": "(+5)",
+        "I": "2",
+        "A": "5",
+        "Ld": "-"
+      }
+    ]
+  },
+  "zombies renegade": {
+    "url": "unit/zombies-renegade",
+    "stats": [
+      {
+        "Name": "Zombie",
+        "M": "4",
+        "WS": "1",
+        "BS": "0",
+        "S": "3",
+        "T": "2",
+        "W": "1",
+        "I": "1",
+        "A": "1",
+        "Ld": "2"
       }
     ]
   }

@@ -7696,7 +7696,7 @@
     },
     {
       "name_de": "Kreischendes Banner",
-      "name_en": "The Screaming Banner",
+      "name_en": "The Screaming Banner {renegade}",
       "name_cn": "哀嚎军旗",
       "name_es": "La bandera de los gritos",
       "name_fr": "Bannière Hurlante",
@@ -8804,7 +8804,7 @@
   "vampiric-powers": [
     {
       "name_de": "Red Fury",
-      "name_en": "Red Fury",
+      "name_en": "Red Fury {renegade}",
       "name_cn": "Red Fury",
       "name_es": "Red Fury",
       "name_fr": "Red Fury",
@@ -8832,7 +8832,7 @@
     },
     {
       "name_de": "Fluch des Wiedergängers",
-      "name_en": "Curse of the Revenant",
+      "name_en": "Curse of the Revenant {renegade}",
       "name_cn": "亡魂诅咒",
       "name_es": "Curse of the Revenant",
       "name_fr": "Malédiction du Revenant",
@@ -8859,12 +8859,12 @@
       "armyComposition": "vampire-counts"
     },
     {
-      "name_de": "Honour of Death",
-      "name_en": "Honour of Death {renegade}",
-      "name_cn": "Honour of Death",
-      "name_es": "Honour of Death",
-      "name_fr": "Honour of Death",
-      "name_it": "Honour of Death",
+      "name_de": "Honour or Death",
+      "name_en": "Honour or Death {renegade}",
+      "name_cn": "Honour or Death",
+      "name_es": "Honour or Death",
+      "name_fr": "Honour or Death",
+      "name_it": "Honour or Death",
       "nonExclusive": true,
       "points": 35,
       "type": "vampiric-power",
