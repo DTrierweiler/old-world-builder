@@ -2989,7 +2989,6 @@ export const rules = {
           requires: [
             "chaos-furies-of-tzeentch-renegade",
             "blue-horrors-of-tzeentch-renegade",
-            "pink-horrors-of-tzeentch",
             "pink-horrors-of-tzeentch-core-renegade",
             "blue-horrors-of-tzeentch-core-renegade",
             "brimstone-horrors-of-tzeentch-renegade",
@@ -3055,7 +3054,6 @@ export const rules = {
           requires: [
             "chaos-furies-of-tzeentch-renegade",
             "blue-horrors-of-tzeentch-renegade",
-            "pink-horrors-of-tzeentch",
             "pink-horrors-of-tzeentch-core-renegade",
             "blue-horrors-of-tzeentch-core-renegade",
             "brimstone-horrors-of-tzeentch-renegade",
@@ -3294,7 +3292,7 @@ export const rules = {
       maxPercent: 50,
       units: [
         {
-          ids: ["dark-elf-dreadlord", "supreme-sorceress-renegade"],
+          ids: ["dark-elf-dreadlord-renegade", "supreme-sorceress-renegade"],
           min: 0,
           max: 1,
           points: 1000,
@@ -3309,7 +3307,7 @@ export const rules = {
           min: 0,
           max: 1,
           requiresType: "characters",
-          requires: ["death-hag"],
+          requires: ["death-hag-renegade"],
         },
       ],
     },
@@ -3320,18 +3318,19 @@ export const rules = {
           ids: ["black-guard-of-naggarond-renegade"],
           min: 0,
           max: 1,
-          requiresType: "characters",
-          requires: ["dark-elf-dreadlord", "dark-elf-master"],
-          perUnit: true,
+          points: 1000,
         },
         {
-          ids: ["cold-one-knights"],
+          ids: ["cold-one-knights-renegade"],
           min: 0,
           max: 1,
           points: 1000,
         },
         {
-          ids: ["scourgerunner-chariots", "cold-one-chariots"],
+          ids: [
+            "scourgerunner-chariots-renegade",
+            "cold-one-chariots-renegade",
+          ],
           min: 0,
           max: 2,
           points: 1000,
@@ -3341,7 +3340,7 @@ export const rules = {
           min: 0,
           max: 1,
           requiresType: "characters",
-          requires: ["high-beastmaster"],
+          requires: ["high-beastmaster-renegade"],
         },
       ],
     },
@@ -3349,13 +3348,13 @@ export const rules = {
       maxPercent: 25,
       units: [
         {
-          ids: ["doomfire-warlocks"],
+          ids: ["doomfire-warlocks-renegade"],
           min: 0,
           max: 1,
           points: 1000,
         },
         {
-          ids: ["reaper-bolt-throwers"],
+          ids: ["reaper-bolt-throwers-renegade"],
           min: 0,
           max: 2,
           points: 1000,

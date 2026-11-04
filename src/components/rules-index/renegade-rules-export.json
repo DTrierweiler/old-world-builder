@@ -33,6 +33,35 @@
       }
     ]
   },
+  "black ark corsairs renegade": {
+    "url": "unit/black-ark-corsairs-renegade",
+    "stats": [
+      {
+        "Name": "Corsair",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Reaver",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "2",
+        "Ld": "8"
+      }
+    ]
+  },
   "black coach renegade": {
     "url": "unit/black-coach-renegade",
     "stats": [
@@ -71,6 +100,35 @@
         "I": "2",
         "A": "1",
         "Ld": "-"
+      }
+    ]
+  },
+  "black guard of naggarond renegade": {
+    "url": "unit/black-guard-of-naggarond-renegade",
+    "stats": [
+      {
+        "Name": "Black Guard",
+        "M": "5",
+        "WS": "5",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "9"
+      },
+      {
+        "Name": "Tower Master",
+        "M": "5",
+        "WS": "5",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "9"
       }
     ]
   },
@@ -272,6 +330,64 @@
       }
     ]
   },
+  "bloodwrack medusas renegade": {
+    "url": "unit/bloodwrack-medusas-renegade",
+    "stats": [
+      {
+        "Name": "Bloodwrack Medusa",
+        "M": "7",
+        "WS": "5",
+        "BS": "5",
+        "S": "4",
+        "T": "4",
+        "W": "4",
+        "I": "5",
+        "A": "3",
+        "Ld": "7"
+      }
+    ]
+  },
+  "bloodwrack shrines renegade": {
+    "url": "unit/bloodwrack-shrines-renegade",
+    "stats": [
+      {
+        "Name": "Bloodwrack Shrine",
+        "M": "7",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Shrinekeeper (x2)",
+        "M": "-",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Bloodwrack Medusa",
+        "M": "-",
+        "WS": "5",
+        "BS": "5",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "3",
+        "Ld": "-"
+      }
+    ]
+  },
   "blue horrors of tzeentch renegade": {
     "url": "unit/blue-horrors-of-tzeentch-renegade",
     "stats": [
@@ -388,6 +504,35 @@
       }
     ]
   },
+  "cauldron of blood renegade": {
+    "url": "unit/cauldron-of-blood-renegade",
+    "stats": [
+      {
+        "Name": "Cauldron of Blood",
+        "M": "5",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Witch Elf Crew (x2)",
+        "M": "-",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "8"
+      }
+    ]
+  },
   "chaos furies of khorne renegade": {
     "url": "unit/chaos-furies-renegade",
     "stats": [
@@ -470,6 +615,105 @@
         "I": "4",
         "A": "1",
         "Ld": "5"
+      }
+    ]
+  },
+  "cold one chariot renegade": {
+    "url": "unit/cold-one-chariot-renegade",
+    "stats": [
+      {
+        "Name": "Chariot",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "5",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Knight Charioteer (x2)",
+        "M": "-",
+        "WS": "5",
+        "BS": "4",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "5",
+        "A": "1",
+        "Ld": "9"
+      },
+      {
+        "Name": "Cold One (x2)",
+        "M": "7",
+        "WS": "3",
+        "BS": "-",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "2",
+        "Ld": "-"
+      }
+    ]
+  },
+  "cold one dark elves renegade": {
+    "url": "unit/cold-one-dark-elves-renegade",
+    "stats": [
+      {
+        "Name": "Cold One",
+        "M": "7",
+        "WS": "3",
+        "BS": "-",
+        "S": "4",
+        "T": "(+1)",
+        "W": "-",
+        "I": "2",
+        "A": "2",
+        "Ld": "-"
+      }
+    ]
+  },
+  "cold one knights renegade": {
+    "url": "unit/cold-one-knights-renegade",
+    "stats": [
+      {
+        "Name": "Cold One Knight",
+        "M": "-",
+        "WS": "5",
+        "BS": "4",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "9"
+      },
+      {
+        "Name": "Dread Knight",
+        "M": "-",
+        "WS": "5",
+        "BS": "4",
+        "S": "4",
+        "T": "4",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "9"
+      },
+      {
+        "Name": "Cold One",
+        "M": "7",
+        "WS": "3",
+        "BS": "-",
+        "S": "4",
+        "T": "-",
+        "W": "-",
+        "I": "2",
+        "A": "2",
+        "Ld": "-"
       }
     ]
   },
@@ -630,23 +874,6 @@
       }
     ]
   },
-  "daemon prince renegade": {
-    "url": "unit/daemon-prince-renegade",
-    "stats": [
-      {
-        "Name": "Daemon Prince",
-        "M": "6",
-        "WS": "7",
-        "BS": "5",
-        "S": "6",
-        "T": "5",
-        "W": "4",
-        "I": "7",
-        "A": "5",
-        "Ld": "9"
-      }
-    ]
-  },
   "daemonettes of slaanesh renegade": {
     "url": "unit/daemonettes-of-slaanesh-renegade",
     "stats": [
@@ -744,6 +971,156 @@
       }
     ]
   },
+  "dark elf dreadlord renegade": {
+    "url": "unit/dark-elf-dreadlord-renegade",
+    "stats": [
+      {
+        "Name": "Dark Elf Dreadlord",
+        "M": "5",
+        "WS": "7",
+        "BS": "7",
+        "S": "4",
+        "T": "3",
+        "W": "3",
+        "I": "6",
+        "A": "4",
+        "Ld": "10"
+      }
+    ]
+  },
+  "dark elf master renegade": {
+    "url": "unit/dark-elf-master-renegade",
+    "stats": [
+      {
+        "Name": "Dark Elf Master",
+        "M": "5",
+        "WS": "6",
+        "BS": "6",
+        "S": "4",
+        "T": "3",
+        "W": "2",
+        "I": "5",
+        "A": "3",
+        "Ld": "9"
+      }
+    ]
+  },
+  "dark elf shades renegade": {
+    "url": "unit/dark-elf-shades-renegade",
+    "stats": [
+      {
+        "Name": "Shade",
+        "M": "5",
+        "WS": "5",
+        "BS": "5",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Bloodshade",
+        "M": "5",
+        "WS": "5",
+        "BS": "6",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "8"
+      }
+    ]
+  },
+  "dark elf warriors renegade": {
+    "url": "unit/dark-elf-warriors-renegade",
+    "stats": [
+      {
+        "Name": "Dark Elf Warrior",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Lordling",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "2",
+        "Ld": "8"
+      }
+    ]
+  },
+  "dark riders renegade": {
+    "url": "unit/dark-riders-renegade",
+    "stats": [
+      {
+        "Name": "Dark Rider",
+        "M": "-",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Herald",
+        "M": "-",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "2",
+        "Ld": "8"
+      },
+      {
+        "Name": "Dark Steed",
+        "M": "9",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "death hag renegade": {
+    "url": "unit/death-hag-renegade",
+    "stats": [
+      {
+        "Name": "Death Hag",
+        "M": "5",
+        "WS": "6",
+        "BS": "6",
+        "S": "4",
+        "T": "3",
+        "W": "2",
+        "I": "7",
+        "A": "3",
+        "Ld": "8"
+      }
+    ]
+  },
   "dire wolves renegade": {
     "url": "unit/dire-wolves-renegade",
     "stats": [
@@ -786,6 +1163,47 @@
         "W": "-",
         "I": "4",
         "A": "3",
+        "Ld": "-"
+      }
+    ]
+  },
+  "doomfire warlocks renegade": {
+    "url": "unit/doomfire-warlocks-renegade",
+    "stats": [
+      {
+        "Name": "Doomfire Warlock",
+        "M": "-",
+        "WS": "4",
+        "BS": "4",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Master",
+        "M": "-",
+        "WS": "4",
+        "BS": "4",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "8"
+      },
+      {
+        "Name": "Dark Steed",
+        "M": "9",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
         "Ld": "-"
       }
     ]
@@ -969,6 +1387,52 @@
       }
     ]
   },
+  "har ganeth executioners renegade": {
+    "url": "unit/har-ganeth-executioners-renegade",
+    "stats": [
+      {
+        "Name": "Executioner",
+        "M": "5",
+        "WS": "5",
+        "BS": "4",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "9"
+      },
+      {
+        "Name": "Draich Master",
+        "M": "5",
+        "WS": "5",
+        "BS": "4",
+        "S": "4",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "9"
+      }
+    ]
+  },
+  "harpies renegade": {
+    "url": "unit/harpies-renegade",
+    "stats": [
+      {
+        "Name": "Harpy",
+        "M": "5",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "6"
+      }
+    ]
+  },
   "hellflayer of slaanesh renegade": {
     "url": "unit/hellflayer-of-slaanesh-renegade",
     "stats": [
@@ -1063,6 +1527,23 @@
       }
     ]
   },
+  "high beastmaster renegade": {
+    "url": "unit/high-beastmaster-renegade",
+    "stats": [
+      {
+        "Name": "High Beastmaster",
+        "M": "-",
+        "WS": "7",
+        "BS": "7",
+        "S": "4",
+        "T": "3",
+        "W": "3",
+        "I": "5",
+        "A": "3",
+        "Ld": "9"
+      }
+    ]
+  },
   "juggernaut of khorne renegade": {
     "url": "unit/juggernaut-of-khorne-renegade",
     "stats": [
@@ -1097,6 +1578,52 @@
       }
     ]
   },
+  "khainite assassin renegade": {
+    "url": "unit/khainite-assassin-renegade",
+    "stats": [
+      {
+        "Name": "Khainite Assassin",
+        "M": "5",
+        "WS": "8",
+        "BS": "7",
+        "S": "4",
+        "T": "3",
+        "W": "2",
+        "I": "7",
+        "A": "3",
+        "Ld": "8"
+      }
+    ]
+  },
+  "kharibdyss renegade": {
+    "url": "unit/kharibdyss-renegade",
+    "stats": [
+      {
+        "Name": "Kharibdyss",
+        "M": "6",
+        "WS": "5",
+        "BS": "0",
+        "S": "7",
+        "T": "5",
+        "W": "5",
+        "I": "4",
+        "A": "5",
+        "Ld": "6"
+      },
+      {
+        "Name": "Beastmaster Handlers (x2)",
+        "M": "6",
+        "WS": "4",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      }
+    ]
+  },
   "lord of change renegade": {
     "url": "unit/lord-of-change-renegade",
     "stats": [
@@ -1111,6 +1638,23 @@
         "I": "6",
         "A": "4",
         "Ld": "9"
+      }
+    ]
+  },
+  "manticore renegade": {
+    "url": "unit/manticore-renegade",
+    "stats": [
+      {
+        "Name": "Manticore",
+        "M": "6",
+        "WS": "5",
+        "BS": "-",
+        "S": "5",
+        "T": "(+2)",
+        "W": "(+4)",
+        "I": "5",
+        "A": "4",
+        "Ld": "-"
       }
     ]
   },
@@ -1322,6 +1866,146 @@
       }
     ]
   },
+  "reaper bolt thrower renegade": {
+    "url": "unit/reaper-bolt-thrower-renegade",
+    "stats": [
+      {
+        "Name": "Reaper Bolt Thrower",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "-",
+        "T": "6",
+        "W": "2",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Dark Elf Crew",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "8"
+      }
+    ]
+  },
+  "repeater crossbowmen renegade": {
+    "url": "unit/repeater-crossbowmen-renegade",
+    "stats": [
+      {
+        "Name": "Repeater Crossbowman",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Lordling",
+        "M": "5",
+        "WS": "4",
+        "BS": "5",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      }
+    ]
+  },
+  "scourgerunner chariot renegade": {
+    "url": "unit/scourgerunner-chariots-renegade",
+    "stats": [
+      {
+        "Name": "Chariot",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "4",
+        "T": "4",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Beastmaster Crew (x2)",
+        "M": "-",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Dark Steed (x2)",
+        "M": "9",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
+  "scourgerunner chariots renegade": {
+    "url": "unit/scourgerunner-chariots-renegade",
+    "stats": [
+      {
+        "Name": "Chariot",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "4",
+        "T": "4",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Beastmaster Crew (x2)",
+        "M": "-",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Dark Steed (x2)",
+        "M": "9",
+        "WS": "3",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "-"
+      }
+    ]
+  },
   "screamers of tzeentch renegade": {
     "url": "unit/screamers-of-tzeentch-renegade",
     "stats": [
@@ -1421,6 +2105,35 @@
       }
     ]
   },
+  "sisters of slaughter renegade": {
+    "url": "unit/sisters-of-slaughter-renegade",
+    "stats": [
+      {
+        "Name": "Sister of Slaughter",
+        "M": "5",
+        "WS": "6",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "6",
+        "A": "2",
+        "Ld": "9"
+      },
+      {
+        "Name": "Handmaiden of Shards",
+        "M": "5",
+        "WS": "6",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "6",
+        "A": "3",
+        "Ld": "9"
+      }
+    ]
+  },
   "skeletal steed vampire counts renegade": {
     "url": "unit/skeletal-steed-vampire-counts-renegade",
     "stats": [
@@ -1496,6 +2209,23 @@
       }
     ]
   },
+  "sorceress renegade": {
+    "url": "unit/sorceress-renegade",
+    "stats": [
+      {
+        "Name": "Sorceress",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      }
+    ]
+  },
   "soul grinder of khorne renegade": {
     "url": "unit/soul-grinder-renegade",
     "stats": [
@@ -1560,6 +2290,23 @@
         "W": "3",
         "I": "7",
         "A": "5",
+        "Ld": "8"
+      }
+    ]
+  },
+  "supreme sorceress renegade": {
+    "url": "unit/supreme-sorceress-renegade",
+    "stats": [
+      {
+        "Name": "Supreme Sorceress",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "3",
+        "I": "5",
+        "A": "2",
         "Ld": "8"
       }
     ]
@@ -1695,6 +2442,35 @@
       }
     ]
   },
+  "war hydra renegade": {
+    "url": "unit/war-hydra-renegade",
+    "stats": [
+      {
+        "Name": "War Hydra",
+        "M": "6",
+        "WS": "4",
+        "BS": "0",
+        "S": "5",
+        "T": "5",
+        "W": "5",
+        "I": "3",
+        "A": "2",
+        "Ld": "6"
+      },
+      {
+        "Name": "Beastmaster Handlers (x2)",
+        "M": "6",
+        "WS": "4",
+        "BS": "-",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "1",
+        "Ld": "8"
+      }
+    ]
+  },
   "wight king renegade": {
     "url": "unit/wight-king-renegade",
     "stats": [
@@ -1724,6 +2500,35 @@
         "T": "5",
         "W": "2",
         "I": "4",
+        "A": "2",
+        "Ld": "8"
+      }
+    ]
+  },
+  "witch elves renegade": {
+    "url": "unit/witch-elves-renegade",
+    "stats": [
+      {
+        "Name": "Witch Elf",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "8"
+      },
+      {
+        "Name": "Hag",
+        "M": "5",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
         "A": "2",
         "Ld": "8"
       }

@@ -6666,7 +6666,7 @@
     },
     {
       "name_de": "Peitsche der Qualen",
-      "name_en": "Whip of Agony",
+      "name_en": "Whip of Agony {renegade}",
       "name_cn": "痛苦之鞭",
       "name_fr": "Fouet de l’Agonie",
       "name_it": "Whip of Agony",
@@ -6734,7 +6734,7 @@
     },
     {
       "name_de": "Banner von Nagarythe",
-      "name_en": "Banner of Nagarythe",
+      "name_en": "Banner of Nagarythe {renegade}",
       "name_cn": "纳加瑞斯之旗",
       "name_fr": "Bannière de Nagarythe",
       "name_it": "Banner of Nagarythe",
@@ -6799,7 +6799,20 @@
       "points": 35,
       "type": "enchanted-item",
       "onePerArmy": true,
-      "name": "black dragon egg"
+      "name": "black dragon egg",
+      "armyComposition": "dark-elves"
+    },
+    {
+      "name_de": "Schwarzes Drachenei",
+      "name_en": "Black Dragon Egg {renegade}",
+      "name_cn": "黑龙卵",
+      "name_fr": "Œuf de Dragon Noir",
+      "name_it": "Black Drago Egg",
+      "points": 35,
+      "type": "enchanted-item",
+      "onePerArmy": true,
+      "name": "black dragon egg",
+      "armyComposition": "de-renegade"
     },
     {
       "name_de": "Fänge der Hydra",
@@ -9021,7 +9034,21 @@
       "points": 5,
       "type": "forbidden-poison",
       "onePerArmy": false,
-      "name": "black lotus"
+      "name": "black lotus",
+      "armyComposition": "dark-elves"
+    },
+    {
+      "name_de": "Schwarzer Lotus",
+      "name_en": "Black Lotus {renegade}",
+      "name_cn": "黑莲花",
+      "name_es": "Black Lotus",
+      "name_fr": "Lotus Noir",
+      "name_it": "Black Lotus",
+      "points": 5,
+      "type": "forbidden-poison",
+      "onePerArmy": false,
+      "name": "black lotus",
+      "armyComposition": "de-renegade"
     },
     {
       "name_de": "Dunkles Gift",
