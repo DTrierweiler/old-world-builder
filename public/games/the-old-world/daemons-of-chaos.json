@@ -778,21 +778,7 @@
           "name_pl": "Hand weapon, Lash of Khorne",
           "points": 15,
           "perModel": true,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Hand weapon, Lash of Khorne",
-          "name_cn": "单手武器, 恐虐之鞭",
-          "name_de": "Hand weapon, Lash of Khorne",
-          "name_es": "Hand weapon, Lash of Khorne",
-          "name_fr": "Arme de base, Fouet de Khorne",
-          "name_it": "Hand weapon, Lash of Khorne",
-          "name_pl": "Hand weapon, Lash of Khorne",
-          "points": 0,
-          "perModel": true,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         },
         {
           "name_en": "Hand weapon, Bloodflail",
@@ -803,20 +789,7 @@
           "name_it": "Hand weapon, Bloodflail",
           "name_pl": "Hand weapon, Bloodflail",
           "points": 20,
-          "perModel": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Hand weapon, Bloodflail",
-          "name_cn": "单手武器, Bloodflail",
-          "name_de": "Hand weapon, Bloodflail",
-          "name_es": "Hand weapon, Bloodflail",
-          "name_fr": "Arme de base, Bloodflail",
-          "name_it": "Hand weapon, Bloodflail",
-          "name_pl": "Hand weapon, Bloodflail",
-          "points": 20,
-          "perModel": true,
-          "armyComposition": "doc-renegade"
+          "perModel": true
         },
         {
           "name_en": "Hand weapon, Great axe",
@@ -841,21 +814,7 @@
           "name_pl": "Heavy armour",
           "points": 0,
           "perModel": true,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Full plate armour (Daemonic flesh)",
-          "name_cn": "Full plate armour (Daemonic flesh)",
-          "name_de": "Full plate armour (Daemonic flesh)",
-          "name_es": "Full plate armour (Daemonic flesh)",
-          "name_fr": "Full plate armour (Daemonic flesh)",
-          "name_it": "Full plate armour (Daemonic flesh)",
-          "name_pl": "Full plate armour (Daemonic flesh)",
-          "points": 0,
-          "perModel": true,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "options": [],
@@ -939,23 +898,9 @@
           "name_fr": "Arme de base, Fouet de Khorne",
           "name_it": "Hand weapon, Lash of Khorne",
           "name_pl": "Hand weapon, Lash of Khorne",
-          "points": 15,
-          "perModel": true,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Hand weapon, Lash of Khorne {renegade}",
-          "name_cn": "单手武器, 恐虐之鞭",
-          "name_de": "Hand weapon, Lash of Khorne",
-          "name_es": "Hand weapon, Lash of Khorne",
-          "name_fr": "Arme de base, Fouet de Khorne",
-          "name_it": "Hand weapon, Lash of Khorne",
-          "name_pl": "Hand weapon, Lash of Khorne",
           "points": 0,
           "perModel": true,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         },
         {
           "name_en": "Hand weapon, Bloodflail {renegade}",
@@ -966,20 +911,7 @@
           "name_it": "Hand weapon, Bloodflail",
           "name_pl": "Hand weapon, Bloodflail",
           "points": 20,
-          "perModel": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Hand weapon, Bloodflail {renegade}",
-          "name_cn": "单手武器, Bloodflail",
-          "name_de": "Hand weapon, Bloodflail",
-          "name_es": "Hand weapon, Bloodflail",
-          "name_fr": "Arme de base, Bloodflail",
-          "name_it": "Hand weapon, Bloodflail",
-          "name_pl": "Hand weapon, Bloodflail",
-          "points": 20,
-          "perModel": true,
-          "armyComposition": "doc-renegade"
+          "perModel": true
         },
         {
           "name_en": "Hand weapon, Great axe {renegade}",
@@ -995,19 +927,6 @@
       ],
       "armor": [
         {
-          "name_en": "Heavy armour",
-          "name_cn": "重甲",
-          "name_de": "Heavy armour",
-          "name_es": "Heavy armour",
-          "name_fr": "Armure lourde",
-          "name_it": "Heavy armour",
-          "name_pl": "Heavy armour",
-          "points": 0,
-          "perModel": true,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
           "name_en": "Full plate armour (Daemonic flesh)",
           "name_cn": "Full plate armour (Daemonic flesh)",
           "name_de": "Full plate armour (Daemonic flesh)",
@@ -1017,8 +936,7 @@
           "name_pl": "Full plate armour (Daemonic flesh)",
           "points": 0,
           "perModel": true,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "options": [],
@@ -1112,20 +1030,7 @@
           "name_it": "Light armour (calloused hides)",
           "name_pl": "Light armour (calloused hides)",
           "points": 0,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Heavy armour (Brazen scales)",
-          "name_cn": "Heavy armour (Brazen scales)",
-          "name_de": "Heavy armour (Brazen scales)",
-          "name_es": "Heavy armour (Brazen scales)",
-          "name_fr": "Heavy armour (Brazen scales)",
-          "name_it": "Heavy armour (Brazen scales)",
-          "name_pl": "Heavy armour (Brazen scales)",
-          "points": 0,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "options": [],
@@ -1159,19 +1064,7 @@
           "name_fr": "Trône de Sang de Khorne",
           "name_it": "Blood Throne of Khorne",
           "name_pl": "Blood Throne of Khorne",
-          "points": 160,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Blood Throne of Khorne",
-          "name_cn": "恐虐鲜血王座",
-          "name_de": "Blood Throne of Khorne",
-          "name_es": "Blood Throne of Khorne",
-          "name_fr": "Trône de Sang de Khorne",
-          "name_it": "Blood Throne of Khorne",
-          "name_pl": "Blood Throne of Khorne",
-          "points": 130,
-          "armyComposition": "doc-renegade"
+          "points": 160
         }
       ],
       "items": [
@@ -1273,18 +1166,6 @@
       ],
       "armor": [
         {
-          "name_en": "Light armour (calloused hides)",
-          "name_cn": "老茧厚皮（视为轻甲)",
-          "name_de": "Light armour (calloused hides)",
-          "name_es": "Light armour (calloused hides)",
-          "name_fr": "Armure légère (cuir calleux)",
-          "name_it": "Light armour (calloused hides)",
-          "name_pl": "Light armour (calloused hides)",
-          "points": 0,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
           "name_en": "Heavy armour (Brazen scales)",
           "name_cn": "Heavy armour (Brazen scales)",
           "name_de": "Heavy armour (Brazen scales)",
@@ -1293,8 +1174,7 @@
           "name_it": "Heavy armour (Brazen scales)",
           "name_pl": "Heavy armour (Brazen scales)",
           "points": 0,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "options": [],
@@ -1328,19 +1208,7 @@
           "name_fr": "Trône de Sang de Khorne",
           "name_it": "Blood Throne of Khorne",
           "name_pl": "Blood Throne of Khorne",
-          "points": 160,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Blood Throne of Khorne {renegade}",
-          "name_cn": "恐虐鲜血王座",
-          "name_de": "Blood Throne of Khorne",
-          "name_es": "Blood Throne of Khorne",
-          "name_fr": "Trône de Sang de Khorne",
-          "name_it": "Blood Throne of Khorne",
-          "name_pl": "Blood Throne of Khorne",
-          "points": 130,
-          "armyComposition": "doc-renegade"
+          "points": 130
         }
       ],
       "items": [
@@ -1780,42 +1648,6 @@
           "maximum": 0
         },
         {
-          "name_en": "Wizard",
-          "name_cn": "法师",
-          "name_de": "Wizard",
-          "name_fr": "Sorcier",
-          "name_es": "Hechicero",
-          "points": 0,
-          "active": true,
-          "alwaysActive": true,
-          "armyComposition": "doc-renegade",
-          "options": [
-            {
-              "name_en": "Level 1 Wizard",
-              "name_cn": "1级法师",
-              "name_de": "Level 1 Wizard",
-              "name_es": "Level 1 Wizard",
-              "name_fr": "Sorcier de Niveau 1",
-              "name_it": "Level 1 Wizard",
-              "name_pl": "Level 1 Wizard",
-              "points": 0,
-              "exclusive": true,
-              "active": true
-            },
-            {
-              "name_en": "Level 2 Wizard",
-              "name_cn": "2级法师",
-              "name_de": "Level 2 Wizard",
-              "name_es": "Level 2 Wizard",
-              "name_fr": "Sorcier de Niveau 2",
-              "name_it": "Level 2 Wizard",
-              "name_pl": "Level 2 Wizard",
-              "points": 30,
-              "exclusive": true
-            }
-          ]
-        },
-        {
           "name_en": "Level 1 Wizard",
           "name_cn": "1级法师",
           "name_de": "Level 1 Wizard",
@@ -1824,8 +1656,7 @@
           "name_it": "Level 1 Wizard",
           "name_pl": "Level 1 Wizard",
           "points": 30,
-          "exclusive": true,
-          "armyComposition": "daemons-of-chaos"
+          "exclusive": true
         },
         {
           "name_en": "Level 2 Wizard",
@@ -1836,8 +1667,7 @@
           "name_it": "Level 2 Wizard",
           "name_pl": "Level 2 Wizard",
           "points": 60,
-          "exclusive": true,
-          "armyComposition": "daemons-of-chaos"
+          "exclusive": true
         }
       ],
       "lores": ["daemonology", "dark-magic", "battle-magic"],
@@ -1985,7 +1815,6 @@
           "points": 0,
           "active": true,
           "alwaysActive": true,
-          "armyComposition": "doc-renegade",
           "options": [
             {
               "name_en": "Level 1 Wizard",
@@ -2011,30 +1840,6 @@
               "exclusive": true
             }
           ]
-        },
-        {
-          "name_en": "Level 1 Wizard",
-          "name_cn": "1级法师",
-          "name_de": "Level 1 Wizard",
-          "name_es": "Level 1 Wizard",
-          "name_fr": "Sorcier de Niveau 1",
-          "name_it": "Level 1 Wizard",
-          "name_pl": "Level 1 Wizard",
-          "points": 30,
-          "exclusive": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Level 2 Wizard",
-          "name_es": "Level 2 Wizard",
-          "name_fr": "Sorcier de Niveau 2",
-          "name_it": "Level 2 Wizard",
-          "name_pl": "Level 2 Wizard",
-          "points": 60,
-          "exclusive": true,
-          "armyComposition": "daemons-of-chaos"
         }
       ],
       "lores": ["daemonology", "dark-magic", "battle-magic"],
@@ -2132,19 +1937,6 @@
       ],
       "equipment": [
         {
-          "name_en": "Hand weapon, Impaling claws",
-          "name_cn": "单手武器, 穿刺利爪",
-          "name_de": "Hand weapon, Impaling claws",
-          "name_es": "Hand weapon, Impaling claws",
-          "name_fr": "Arme de base, Pinces empaleuses",
-          "name_it": "Hand weapon, Impaling claws",
-          "name_pl": "Hand weapon, Impaling claws",
-          "points": 0,
-          "perModel": true,
-          "active": true,
-          "armyComposition": "doc-renegade"
-        },
-        {
           "name_en": "Impaling claws",
           "name_cn": "穿刺利爪",
           "name_de": "Impaling claws",
@@ -2154,8 +1946,7 @@
           "name_pl": "Impaling claws",
           "points": 0,
           "perModel": true,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
+          "active": true
         }
       ],
       "armor": [],
@@ -2300,21 +2091,7 @@
           "name_pl": "Hand weapon, Impaling claws",
           "points": 0,
           "perModel": true,
-          "active": true,
-          "armyComposition": "doc-renegade"
-        },
-        {
-          "name_en": "Impaling claws",
-          "name_cn": "穿刺利爪",
-          "name_de": "Impaling claws",
-          "name_es": "Impaling claws",
-          "name_fr": "Pinces empaleuses",
-          "name_it": "Impaling claws",
-          "name_pl": "Impaling claws",
-          "points": 0,
-          "perModel": true,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
+          "active": true
         }
       ],
       "armor": [],
@@ -2461,42 +2238,6 @@
       "armor": [],
       "options": [
         {
-          "name_en": "Wizard",
-          "name_cn": "法师",
-          "name_de": "Wizard",
-          "name_fr": "Sorcier",
-          "name_es": "Hechicero",
-          "points": 0,
-          "active": true,
-          "alwaysActive": true,
-          "armyComposition": "doc-renegade",
-          "options": [
-            {
-              "name_en": "Level 1 Wizard",
-              "name_cn": "1级法师",
-              "name_de": "Level 1 Wizard",
-              "name_es": "Level 1 Wizard",
-              "name_fr": "Sorcier de Niveau 1",
-              "name_it": "Level 1 Wizard",
-              "name_pl": "Level 1 Wizard",
-              "points": 0,
-              "exclusive": true,
-              "active": true
-            },
-            {
-              "name_en": "Level 2 Wizard",
-              "name_cn": "2级法师",
-              "name_de": "Level 2 Wizard",
-              "name_es": "Level 2 Wizard",
-              "name_fr": "Sorcier de Niveau 2",
-              "name_it": "Level 2 Wizard",
-              "name_pl": "Level 2 Wizard",
-              "points": 30,
-              "exclusive": true
-            }
-          ]
-        },
-        {
           "name_en": "Level 1 Wizard",
           "name_cn": "1级法师",
           "name_de": "Level 1 Wizard",
@@ -2505,8 +2246,7 @@
           "name_it": "Level 1 Wizard",
           "name_pl": "Level 1 Wizard",
           "points": 30,
-          "exclusive": true,
-          "armyComposition": "daemons-of-chaos"
+          "exclusive": true
         },
         {
           "name_en": "Level 2 Wizard",
@@ -2517,8 +2257,7 @@
           "name_it": "Level 2 Wizard",
           "name_pl": "Level 2 Wizard",
           "points": 60,
-          "exclusive": true,
-          "armyComposition": "daemons-of-chaos"
+          "exclusive": true
         }
       ],
       "lores": ["daemonology", "dark-magic", "illusion"],
@@ -2552,19 +2291,7 @@
           "name_fr": "Char Traqueur de Slaanesh",
           "name_it": "Seeker Chariot",
           "name_pl": "Seeker Chariot",
-          "points": 100,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Seeker Chariot of Slaanesh",
-          "name_cn": "搜查战车",
-          "name_de": "Seeker Chariot of Slaanesh",
-          "name_es": "Seeker Chariot",
-          "name_fr": "Char Traqueur de Slaanesh",
-          "name_it": "Seeker Chariot",
-          "name_pl": "Seeker Chariot",
-          "points": 85,
-          "armyComposition": "doc-renegade"
+          "points": 100
         },
         {
           "name_en": "Exalted Seeker Chariot of Slaanesh",
@@ -2574,19 +2301,7 @@
           "name_fr": "Char Traqueur Exalté",
           "name_it": "Exalted Seeker Chariot",
           "name_pl": "Exalted Seeker Chariot",
-          "armyComposition": "daemons-of-chaos",
           "points": 185
-        },
-        {
-          "name_en": "Exalted Seeker Chariot of Slaanesh",
-          "name_cn": "华贵搜查战车",
-          "name_de": "Exalted Seeker Chariot of Slaanesh",
-          "name_es": "Exalted Seeker Chariot",
-          "name_fr": "Char Traqueur Exalté",
-          "name_it": "Exalted Seeker Chariot",
-          "name_pl": "Exalted Seeker Chariot",
-          "armyComposition": "doc-renegade",
-          "points": 140
         }
       ],
       "items": [
@@ -2697,7 +2412,6 @@
           "points": 0,
           "active": true,
           "alwaysActive": true,
-          "armyComposition": "doc-renegade",
           "options": [
             {
               "name_en": "Level 1 Wizard",
@@ -2723,30 +2437,6 @@
               "exclusive": true
             }
           ]
-        },
-        {
-          "name_en": "Level 1 Wizard",
-          "name_cn": "1级法师",
-          "name_de": "Level 1 Wizard",
-          "name_es": "Level 1 Wizard",
-          "name_fr": "Sorcier de Niveau 1",
-          "name_it": "Level 1 Wizard",
-          "name_pl": "Level 1 Wizard",
-          "points": 30,
-          "exclusive": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Level 2 Wizard",
-          "name_cn": "2级法师",
-          "name_de": "Level 2 Wizard",
-          "name_es": "Level 2 Wizard",
-          "name_fr": "Sorcier de Niveau 2",
-          "name_it": "Level 2 Wizard",
-          "name_pl": "Level 2 Wizard",
-          "points": 60,
-          "exclusive": true,
-          "armyComposition": "daemons-of-chaos"
         }
       ],
       "lores": ["daemonology", "dark-magic", "illusion"],
@@ -2780,19 +2470,7 @@
           "name_fr": "Char Traqueur de Slaanesh",
           "name_it": "Seeker Chariot",
           "name_pl": "Seeker Chariot",
-          "points": 100,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Seeker Chariot of Slaanesh {renegade}",
-          "name_cn": "搜查战车",
-          "name_de": "Seeker Chariot of Slaanesh",
-          "name_es": "Seeker Chariot",
-          "name_fr": "Char Traqueur de Slaanesh",
-          "name_it": "Seeker Chariot",
-          "name_pl": "Seeker Chariot",
-          "points": 85,
-          "armyComposition": "doc-renegade"
+          "points": 85
         },
         {
           "name_en": "Exalted Seeker Chariot of Slaanesh {renegade}",
@@ -2802,18 +2480,6 @@
           "name_fr": "Char Traqueur Exalté",
           "name_it": "Exalted Seeker Chariot",
           "name_pl": "Exalted Seeker Chariot",
-          "armyComposition": "daemons-of-chaos",
-          "points": 185
-        },
-        {
-          "name_en": "Exalted Seeker Chariot of Slaanesh {renegade}",
-          "name_cn": "华贵搜查战车",
-          "name_de": "Exalted Seeker Chariot of Slaanesh",
-          "name_es": "Exalted Seeker Chariot",
-          "name_fr": "Char Traqueur Exalté",
-          "name_it": "Exalted Seeker Chariot",
-          "name_pl": "Exalted Seeker Chariot",
-          "armyComposition": "doc-renegade",
           "points": 140
         }
       ],
@@ -3251,19 +2917,7 @@
           "name_fr": "Disque de Tzeentch",
           "name_it": "Disc of Tzeentch",
           "name_pl": "Disc of Tzeentch",
-          "points": 20,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Disc of Tzeentch",
-          "name_cn": "奸奇飞盘",
-          "name_de": "Disc of Tzeentch",
-          "name_es": "Disc of Tzeentch",
-          "name_fr": "Disque de Tzeentch",
-          "name_it": "Disc of Tzeentch",
-          "name_pl": "Disc of Tzeentch",
-          "points": 35,
-          "armyComposition": "doc-renegade"
+          "points": 20
         },
         {
           "name_en": "Chariot of Tzeentch",
@@ -3284,7 +2938,6 @@
           "name_it": "Burning Chariot of Tzeentch",
           "name_pl": "Burning Chariot of Tzeentch",
           "points": 190,
-          "armyComposition": "daemons-of-chaos",
           "options": [
             {
               "name_en": "Level 1 Wizard",
@@ -3517,19 +3170,7 @@
           "name_fr": "Disque de Tzeentch",
           "name_it": "Disc of Tzeentch",
           "name_pl": "Disc of Tzeentch",
-          "points": 20,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Disc of Tzeentch {renegade}",
-          "name_cn": "奸奇飞盘",
-          "name_de": "Disc of Tzeentch",
-          "name_es": "Disc of Tzeentch",
-          "name_fr": "Disque de Tzeentch",
-          "name_it": "Disc of Tzeentch",
-          "name_pl": "Disc of Tzeentch",
-          "points": 35,
-          "armyComposition": "doc-renegade"
+          "points": 35
         },
         {
           "name_en": "Chariot of Tzeentch",
@@ -3540,53 +3181,6 @@
           "name_it": "Chariot of Tzeentch",
           "name_pl": "Chariot of Tzeentch",
           "points": 90
-        },
-        {
-          "name_en": "Burning Chariot of Tzeentch {renegade}",
-          "name_cn": "奸奇燃烧战车",
-          "name_de": "Burning Chariot of Tzeentch",
-          "name_es": "Burning Chariot of Tzeentch",
-          "name_fr": "Char Incendiaire de Tzeentch",
-          "name_it": "Burning Chariot of Tzeentch",
-          "name_pl": "Burning Chariot of Tzeentch",
-          "points": 190,
-          "armyComposition": "daemons-of-chaos",
-          "options": [
-            {
-              "name_en": "Level 1 Wizard",
-              "name_cn": "1级法师",
-              "name_de": "Level 1 Wizard",
-              "name_es": "Level 1 Wizard",
-              "name_fr": "Sorcier de Niveau 1",
-              "name_it": "Level 1 Wizard",
-              "name_pl": "Level 1 Wizard",
-              "points": 0,
-              "exclusive": true,
-              "active": true
-            },
-            {
-              "name_en": "Level 2 Wizard",
-              "name_cn": "2级法师",
-              "name_de": "Level 2 Wizard",
-              "name_es": "Level 2 Wizard",
-              "name_fr": "Sorcier de Niveau 2",
-              "name_it": "Level 2 Wizard",
-              "name_pl": "Level 2 Wizard",
-              "points": 30,
-              "exclusive": true
-            },
-            {
-              "name_en": "Level 3 Wizard",
-              "name_cn": "3级法师",
-              "name_de": "Level 3 Wizard",
-              "name_es": "Level 3 Wizard",
-              "name_fr": "Sorcier de Niveau 3",
-              "name_it": "Level 3 Wizard",
-              "name_pl": "Level 3 Wizard",
-              "points": 60,
-              "exclusive": true
-            }
-          ]
         }
       ],
       "items": [
@@ -3687,8 +3281,7 @@
           "name_fr": "Tentatrice (champion)",
           "name_it": "Alluress (champion)",
           "name_pl": "Alluress (champion)",
-          "points": 6,
-          "armyComposition": "daemons-of-chaos"
+          "points": 6
         },
         {
           "name_en": "Standard bearer",
@@ -4738,23 +4331,7 @@
           "name_fr": "Horreur Iridescente (champion)",
           "name_it": "Iridescent Horror (champion)",
           "name_pl": "Iridescent Horror (champion)",
-          "points": 6,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Iridescent Horror (champion)",
-          "name_cn": "闪烁惧妖（冠军）",
-          "name_de": "Iridescent Horror (champion)",
-          "name_es": "Iridescent Horror (champion)",
-          "name_fr": "Horreur Iridescente (champion)",
-          "name_it": "Iridescent Horror (champion)",
-          "name_pl": "Iridescent Horror (champion)",
-          "points": 6,
-          "armyComposition": "doc-renegade",
-          "magic": {
-            "types": ["daemonic-gift-common", "daemonic-gift-tzeentch"],
-            "maxPoints": 25
-          }
+          "points": 6
         },
         {
           "name_en": "Standard bearer",
@@ -4768,23 +4345,7 @@
           "magic": {
             "types": ["daemonic-icon-tzeentch"],
             "maxPoints": 50
-          },
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Standard bearer",
-          "name_cn": "旗手",
-          "name_de": "Standard bearer",
-          "name_es": "Standard bearer",
-          "name_fr": "Porte-étendard",
-          "name_it": "Standard bearer",
-          "name_pl": "Standard bearer",
-          "points": 6,
-          "magic": {
-            "types": ["daemonic-icon-common", "daemonic-icon-tzeentch"],
-            "maxPoints": 50
-          },
-          "armyComposition": "doc-renegade"
+          }
         },
         {
           "name_en": "Musician",
@@ -4862,18 +4423,6 @@
           "name_it": "Iridescent Horror (champion)",
           "name_pl": "Iridescent Horror (champion)",
           "points": 6,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Iridescent Horror (champion)",
-          "name_cn": "闪烁惧妖（冠军）",
-          "name_de": "Iridescent Horror (champion)",
-          "name_es": "Iridescent Horror (champion)",
-          "name_fr": "Horreur Iridescente (champion)",
-          "name_it": "Iridescent Horror (champion)",
-          "name_pl": "Iridescent Horror (champion)",
-          "points": 6,
-          "armyComposition": "doc-renegade",
           "magic": {
             "types": ["daemonic-gift-common", "daemonic-gift-tzeentch"],
             "maxPoints": 25
@@ -6616,23 +6165,7 @@
           "name_fr": "Pouacre (champion)",
           "name_it": "Plagueridden (champion)",
           "name_pl": "Plagueridden (champion)",
-          "points": 7,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Plagueridden (champion)",
-          "name_cn": "瘟疫使者（冠军）",
-          "name_de": "Plagueridden (champion)",
-          "name_es": "Plagueridden (champion)",
-          "name_fr": "Pouacre (champion)",
-          "name_it": "Plagueridden (champion)",
-          "name_pl": "Plagueridden (champion)",
-          "points": 7,
-          "armyComposition": "doc-renegade",
-          "magic": {
-            "types": ["daemonic-gift-common", "daemonic-gift-nurgle"],
-            "maxPoints": 25
-          }
+          "points": 7
         },
         {
           "name_en": "Standard bearer",
@@ -6646,23 +6179,7 @@
           "magic": {
             "types": ["daemonic-icon-nurgle"],
             "maxPoints": 50
-          },
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Standard bearer",
-          "name_cn": "旗手",
-          "name_de": "Standard bearer",
-          "name_es": "Standard bearer",
-          "name_fr": "Porte-étendard",
-          "name_it": "Standard bearer",
-          "name_pl": "Standard bearer",
-          "points": 7,
-          "magic": {
-            "types": ["daemonic-icon-common", "daemonic-icon-nurgle"],
-            "maxPoints": 50
-          },
-          "armyComposition": "doc-renegade"
+          }
         },
         {
           "name_en": "Musician",
@@ -6701,22 +6218,7 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Plague Proboscis",
-          "name_cn": "瘟疫之吻(+1 先攻值)",
-          "name_de": "Plague Proboscis",
-          "name_es": "Plague Proboscis",
-          "name_fr": "Proboscis à pus",
-          "name_it": "Plague Proboscis",
-          "name_pl": "Plague Proboscis",
-          "points": 1,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0,
-          "armyComposition": "doc-renegade"
+          "maximum": 0
         },
         {
           "name_en": "Venom sting",
@@ -6799,18 +6301,6 @@
           "name_it": "Plagueridden (champion)",
           "name_pl": "Plagueridden (champion)",
           "points": 7,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Plagueridden (champion)",
-          "name_cn": "瘟疫使者（冠军）",
-          "name_de": "Plagueridden (champion)",
-          "name_es": "Plagueridden (champion)",
-          "name_fr": "Pouacre (champion)",
-          "name_it": "Plagueridden (champion)",
-          "name_pl": "Plagueridden (champion)",
-          "points": 7,
-          "armyComposition": "doc-renegade",
           "magic": {
             "types": ["daemonic-gift-common", "daemonic-gift-nurgle"],
             "maxPoints": 25
@@ -6864,25 +6354,10 @@
           "name_fr": "Proboscis à pus",
           "name_it": "Plague Proboscis",
           "name_pl": "Plague Proboscis",
-          "points": 2,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Plague Proboscis",
-          "name_cn": "瘟疫之吻(+1 先攻值)",
-          "name_de": "Plague Proboscis",
-          "name_es": "Plague Proboscis",
-          "name_fr": "Proboscis à pus",
-          "name_it": "Plague Proboscis",
-          "name_pl": "Plague Proboscis",
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0,
-          "armyComposition": "doc-renegade"
+          "maximum": 0
         },
         {
           "name_en": "Venom sting {renegade}",
@@ -7252,23 +6727,7 @@
           "name_fr": "Massacreur (champion)",
           "name_it": "Bloodreaper (champion)",
           "name_pl": "Bloodreaper (champion)",
-          "points": 7,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Bloodreaper (champion)",
-          "name_cn": "放血收割者 （冠军）",
-          "name_de": "Bloodreaper (champion)",
-          "name_es": "Bloodreaper (champion)",
-          "name_fr": "Massacreur (champion)",
-          "name_it": "Bloodreaper (champion)",
-          "name_pl": "Bloodreaper (champion)",
-          "points": 7,
-          "armyComposition": "doc-renegade",
-          "magic": {
-            "types": ["daemonic-gift-common", "daemonic-gift-khorne"],
-            "maxPoints": 25
-          }
+          "points": 7
         },
         {
           "name_en": "Standard bearer",
@@ -7282,23 +6741,7 @@
           "magic": {
             "types": ["daemonic-icon-khorne"],
             "maxPoints": 50
-          },
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Standard bearer",
-          "name_cn": "旗手",
-          "name_de": "Standard bearer",
-          "name_es": "Standard bearer",
-          "name_fr": "Porte-étendard",
-          "name_it": "Standard bearer",
-          "name_pl": "Standard bearer",
-          "points": 7,
-          "magic": {
-            "types": ["daemonic-icon-common", "daemonic-icon-khorne"],
-            "maxPoints": 50
-          },
-          "armyComposition": "doc-renegade"
+          }
         },
         {
           "name_en": "Musician",
@@ -7334,20 +6777,7 @@
           "name_it": "Light armour (calloused hides), Barding (brazen hide)",
           "name_pl": "Light armour (calloused hides), Barding (brazen hide)",
           "points": 0,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Heavy armour (Brazen scales), Barding (Brazen hide)",
-          "name_cn": "Heavy armour (Brazen scales), Barding (Brazen hide)",
-          "name_de": "Heavy armour (Brazen scales), Barding (Brazen hide)",
-          "name_es": "Heavy armour (Brazen scales), Barding (Brazen hide)",
-          "name_fr": "Heavy armour (Brazen scales), Barding (Brazen hide)",
-          "name_it": "Heavy armour (Brazen scales), Barding (Brazen hide)",
-          "name_pl": "Heavy armour (Brazen scales), Barding (Brazen hide)",
-          "points": 0,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "options": [],
@@ -7400,18 +6830,6 @@
           "name_it": "Bloodreaper (champion)",
           "name_pl": "Bloodreaper (champion)",
           "points": 7,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Bloodreaper (champion)",
-          "name_cn": "放血收割者 （冠军）",
-          "name_de": "Bloodreaper (champion)",
-          "name_es": "Bloodreaper (champion)",
-          "name_fr": "Massacreur (champion)",
-          "name_it": "Bloodreaper (champion)",
-          "name_pl": "Bloodreaper (champion)",
-          "points": 7,
-          "armyComposition": "doc-renegade",
           "magic": {
             "types": ["daemonic-gift-common", "daemonic-gift-khorne"],
             "maxPoints": 25
@@ -7457,18 +6875,6 @@
       ],
       "armor": [
         {
-          "name_en": "Light armour (calloused hides), Barding (brazen hide)",
-          "name_cn": "老茧厚皮（视为轻甲）, 厚皮(视作马铠)",
-          "name_de": "Light armour (calloused hides), Barding (brazen hide)",
-          "name_es": "Light armour (calloused hides), Barding (brazen hide)",
-          "name_fr": "Armure légère (cuir calleux), Caparaçon (peau d’airain)",
-          "name_it": "Light armour (calloused hides), Barding (brazen hide)",
-          "name_pl": "Light armour (calloused hides), Barding (brazen hide)",
-          "points": 0,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
           "name_en": "Heavy armour (Brazen scales), Barding (Brazen hide)",
           "name_cn": "Heavy armour (Brazen scales), Barding (Brazen hide)",
           "name_de": "Heavy armour (Brazen scales), Barding (Brazen hide)",
@@ -7477,8 +6883,7 @@
           "name_it": "Heavy armour (Brazen scales), Barding (Brazen hide)",
           "name_pl": "Heavy armour (Brazen scales), Barding (Brazen hide)",
           "points": 0,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "options": [],
@@ -8562,23 +7967,7 @@
           "name_fr": "Pouacre (champion)",
           "name_it": "Plagueridden (champion)",
           "name_pl": "Plagueridden (champion)",
-          "points": 7,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Plagueridden (champion)",
-          "name_cn": "瘟疫使者（冠军）",
-          "name_de": "Plagueridden (champion)",
-          "name_es": "Plagueridden (champion)",
-          "name_fr": "Pouacre (champion)",
-          "name_it": "Plagueridden (champion)",
-          "name_pl": "Plagueridden (champion)",
-          "points": 7,
-          "armyComposition": "doc-renegade",
-          "magic": {
-            "types": ["daemonic-gift-common", "daemonic-gift-nurgle"],
-            "maxPoints": 25
-          }
+          "points": 7
         },
         {
           "name_en": "Standard bearer",
@@ -8592,23 +7981,7 @@
           "magic": {
             "types": ["daemonic-icon-nurgle"],
             "maxPoints": 50
-          },
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Standard bearer",
-          "name_cn": "旗手",
-          "name_de": "Standard bearer",
-          "name_es": "Standard bearer",
-          "name_fr": "Porte-étendard",
-          "name_it": "Standard bearer",
-          "name_pl": "Standard bearer",
-          "points": 7,
-          "magic": {
-            "types": ["daemonic-icon-common", "daemonic-icon-nurgle"],
-            "maxPoints": 50
-          },
-          "armyComposition": "doc-renegade"
+          }
         },
         {
           "name_en": "Musician",
@@ -8647,22 +8020,7 @@
           "points": 2,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Plague Proboscis",
-          "name_cn": "瘟疫之吻(+1 先攻值)",
-          "name_de": "Plague Proboscis",
-          "name_es": "Plague Proboscis",
-          "name_fr": "Proboscis à pus",
-          "name_it": "Plague Proboscis",
-          "name_pl": "Plague Proboscis",
-          "points": 1,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0,
-          "armyComposition": "doc-renegade"
+          "maximum": 0
         },
         {
           "name_en": "Venom sting",
@@ -8736,18 +8094,6 @@
           "name_it": "Plagueridden (champion)",
           "name_pl": "Plagueridden (champion)",
           "points": 7,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Plagueridden (champion)",
-          "name_cn": "瘟疫使者（冠军）",
-          "name_de": "Plagueridden (champion)",
-          "name_es": "Plagueridden (champion)",
-          "name_fr": "Pouacre (champion)",
-          "name_it": "Plagueridden (champion)",
-          "name_pl": "Plagueridden (champion)",
-          "points": 7,
-          "armyComposition": "doc-renegade",
           "magic": {
             "types": ["daemonic-gift-common", "daemonic-gift-nurgle"],
             "maxPoints": 25
@@ -8801,25 +8147,10 @@
           "name_fr": "Proboscis à pus",
           "name_it": "Plague Proboscis",
           "name_pl": "Plague Proboscis",
-          "points": 2,
-          "perModel": true,
-          "minimum": 0,
-          "maximum": 0,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Plague Proboscis",
-          "name_cn": "瘟疫之吻(+1 先攻值)",
-          "name_de": "Plague Proboscis",
-          "name_es": "Plague Proboscis",
-          "name_fr": "Proboscis à pus",
-          "name_it": "Plague Proboscis",
-          "name_pl": "Plague Proboscis",
           "points": 1,
           "perModel": true,
           "minimum": 0,
-          "maximum": 0,
-          "armyComposition": "doc-renegade"
+          "maximum": 0
         },
         {
           "name_en": "Venom sting {renegade}",
@@ -9811,20 +9142,7 @@
           "name_it": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
           "name_pl": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
           "points": 0,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "name_cn": "黄铜车轮, 镰刀刃(视为单手武器), 恐虐加农炮, 地狱之刃",
-          "name_de": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "name_es": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "name_fr": "Roues d’airain, Arme de base (faux), Canon de Khorne, Lames Infernales",
-          "name_it": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "name_pl": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "points": 0,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "armor": [
@@ -9837,20 +9155,7 @@
           "name_it": "Full plate armour",
           "name_pl": "Full plate armour",
           "points": 0,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "3+",
-          "name_cn": "3+",
-          "name_de": "3+",
-          "name_es": "3+",
-          "name_fr": "3+",
-          "name_it": "3+",
-          "name_pl": "3+",
-          "points": 0,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "options": [],
@@ -9911,35 +9216,10 @@
           "name_it": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
           "name_pl": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
           "points": 0,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
-        {
-          "name_en": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne {renegade}, Hellblades",
-          "name_cn": "黄铜车轮, 镰刀刃(视为单手武器), 恐虐加农炮, 地狱之刃",
-          "name_de": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "name_es": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "name_fr": "Roues d’airain, Arme de base (faux), Canon de Khorne, Lames Infernales",
-          "name_it": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "name_pl": "Brazen wheels, Hand weapon (scything blades), Cannon of Khorne, Hellblades",
-          "points": 0,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "armor": [
-        {
-          "name_en": "Full plate armour",
-          "name_cn": "全身甲",
-          "name_de": "Full plate armour",
-          "name_es": "Full plate armour",
-          "name_fr": "Armure de plate complète",
-          "name_it": "Full plate armour",
-          "name_pl": "Full plate armour",
-          "points": 0,
-          "active": true,
-          "armyComposition": "daemons-of-chaos"
-        },
         {
           "name_en": "3+",
           "name_cn": "3+",
@@ -9949,8 +9229,7 @@
           "name_it": "3+",
           "name_pl": "3+",
           "points": 0,
-          "active": true,
-          "armyComposition": "doc-renegade"
+          "active": true
         }
       ],
       "options": [],
