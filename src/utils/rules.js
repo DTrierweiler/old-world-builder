@@ -3923,7 +3923,7 @@ export const rules = {
       maxPercent: 50,
       units: [
         {
-          ids: ["skaven-warlord", "master-assassin-renegade"],
+          ids: ["skaven-warlord-renegade", "master-assassin-renegade"],
           min: 0,
           max: 1,
           points: 1000,
@@ -3933,12 +3933,6 @@ export const rules = {
           min: 0,
           max: 1,
           points: 1000,
-        },
-        {
-          ids: ["plague-priest"],
-          requiresType: "all",
-          requires: ["plague-monks-renegade", "plague-monks-core-renegade"],
-          perUnit: true,
         },
       ],
     },
@@ -3950,14 +3944,14 @@ export const rules = {
           min: 0,
           max: 1,
           requiresType: "characters",
-          requires: ["skaven-warlord"],
+          requires: ["skaven-warlord-renegade"],
         },
         {
           ids: ["plague-monks-core-renegade"],
           min: 0,
           max: 1,
           requiresType: "characters",
-          requires: ["plague-priest"],
+          requires: ["plague-priest-renegade"],
         },
         {
           ids: ["plague-monks-core-renegade", "stormvermin-core-renegade"],
@@ -3969,7 +3963,7 @@ export const rules = {
           min: 0,
           max: 1,
           requiresType: "all",
-          requires: ["clanrats"],
+          requires: ["clanrats-renegade"],
           perUnit: true,
         },
       ],
@@ -3983,7 +3977,7 @@ export const rules = {
           requires: ["warlock-engineer-renegade"],
         },
         {
-          ids: ["poisoned-wind-globadiers"],
+          ids: ["poisoned-wind-globadiers-renegade"],
           requiresType: "characters",
           requires: ["warlock-engineer-renegade"],
           min: 0,
@@ -4010,7 +4004,7 @@ export const rules = {
           points: 1000,
         },
         {
-          ids: ["warp-lightning-cannon"],
+          ids: ["warp-lightning-cannon-renegade"],
           min: 0,
           max: 1,
           requiresType: "characters",
@@ -4018,11 +4012,11 @@ export const rules = {
           points: 1000,
         },
         {
-          ids: ["plagueclaw-catapult"],
+          ids: ["plagueclaw-catapult-renegade"],
           min: 0,
           max: 1,
           requiresType: "characters",
-          requires: ["plague-priest"],
+          requires: ["plague-priest-renegade"],
           points: 1000,
         },
         {
@@ -4030,7 +4024,7 @@ export const rules = {
           min: 0,
           max: 1,
           requiresType: "characters",
-          requires: ["plague-priest"],
+          requires: ["plague-priest-renegade"],
           points: 1000,
         },
       ],

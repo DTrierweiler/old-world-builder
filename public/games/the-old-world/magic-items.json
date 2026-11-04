@@ -7292,6 +7292,19 @@
   "skaven": [
     {
       "name_de": "Die Fellklinge",
+      "name_en": "The Fellblade",
+      "name_cn": "堕落之刃",
+      "name_es": "La hoja caída",
+      "name_fr": "Lame Fatale",
+      "name_it": "The Fellblade",
+      "points": 100,
+      "type": "weapon",
+      "onePerArmy": true,
+      "name": "the fellblade",
+      "armyComposition": "skaven"
+    },
+    {
+      "name_de": "Die Fellklinge",
       "name_en": "The Fellblade {renegade}",
       "name_cn": "堕落之刃",
       "name_es": "La hoja caída",
@@ -7300,11 +7313,12 @@
       "points": 100,
       "type": "weapon",
       "onePerArmy": true,
-      "name": "the fellblade"
+      "name": "the fellblade",
+      "armyComposition": "sk-renegade"
     },
     {
       "name_de": "Weinende Klinge",
-      "name_en": "Weeping Blade {renegade}",
+      "name_en": "Weeping Blade",
       "name_cn": "悲泣之刃",
       "name_es": "Hoja llorona",
       "name_fr": "Lame Suintante",
@@ -7317,7 +7331,7 @@
     },
     {
       "name_de": "Weinende Klinge",
-      "name_en": "Weeping Blade",
+      "name_en": "Weeping Blade {renegade}",
       "name_cn": "悲泣之刃",
       "name_es": "Hoja llorona",
       "name_fr": "Lame Suintante",
@@ -7356,6 +7370,20 @@
     },
     {
       "name_de": "Todesglobus*",
+      "name_en": "Death Globe*",
+      "name_cn": "死亡之球*",
+      "name_es": "Globo de la muerte*",
+      "name_fr": "Sphère de Mort*",
+      "name_it": "Death Globe*",
+      "points": 25,
+      "stackable": true,
+      "type": "weapon",
+      "onePerArmy": false,
+      "name": "death globe",
+      "armyComposition": "skaven"
+    },
+    {
+      "name_de": "Todesglobus*",
       "name_en": "Death Globe* {renegade}",
       "name_cn": "死亡之球*",
       "name_es": "Globo de la muerte*",
@@ -7365,7 +7393,8 @@
       "stackable": true,
       "type": "weapon",
       "onePerArmy": false,
-      "name": "death globe"
+      "name": "death globe",
+      "armyComposition": "sk-renegade"
     },
     {
       "name_de": "Warpstein-Rüstung*",
@@ -7541,7 +7570,7 @@
     },
     {
       "name_de": "Plague Banner",
-      "name_en": "Plague Banner",
+      "name_en": "Plague Banner {renegade}",
       "name_cn": "Plague Banner",
       "name_es": "Plague Banner",
       "name_fr": "Plague Banner",
@@ -7554,6 +7583,19 @@
     },
     {
       "name_de": "Messingkugel",
+      "name_en": "Brass Orb",
+      "name_cn": "黄铜球",
+      "name_es": "Orbe de latón",
+      "name_fr": "Orbe d’Airain",
+      "name_it": "Brass Orb",
+      "points": 50,
+      "type": "enchanted-item",
+      "onePerArmy": true,
+      "name": "brass orb",
+      "armyComposition": "skaven"
+    },
+    {
+      "name_de": "Messingkugel",
       "name_en": "Brass Orb {renegade}",
       "name_cn": "黄铜球",
       "name_es": "Orbe de latón",
@@ -7562,7 +7604,21 @@
       "points": 50,
       "type": "enchanted-item",
       "onePerArmy": true,
-      "name": "brass orb"
+      "name": "brass orb",
+      "armyComposition": "sk-renegade"
+    },
+    {
+      "name_de": "Skalm",
+      "name_en": "Skalm",
+      "name_cn": "药膏",
+      "name_es": "Skálm",
+      "name_fr": "Skataplasme",
+      "name_it": "Skalm",
+      "points": 35,
+      "type": "enchanted-item",
+      "onePerArmy": true,
+      "name": "skalm",
+      "armyComposition": "skaven"
     },
     {
       "name_de": "Skalm",
@@ -7574,7 +7630,8 @@
       "points": 35,
       "type": "enchanted-item",
       "onePerArmy": true,
-      "name": "skalm"
+      "name": "skalm",
+      "armyComposition": "sk-renegade"
     },
     {
       "name_de": "Skavenbrew*",
@@ -7629,6 +7686,20 @@
     },
     {
       "name_de": "Warpstein-Token*",
+      "name_en": "Warpstone Tokens*",
+      "name_cn": "次元石块*",
+      "name_es": "Fichas de piedra bruja*",
+      "name_fr": "Fragments de Malepierre*",
+      "name_it": "Warpstone Tokens*",
+      "points": 15,
+      "stackable": true,
+      "type": "arcane-item",
+      "onePerArmy": false,
+      "name": "warpstone tokens",
+      "armyComposition": "skaven"
+    },
+    {
+      "name_de": "Warpstein-Token*",
       "name_en": "Warpstone Tokens* {renegade}",
       "name_cn": "次元石块*",
       "name_es": "Fichas de piedra bruja*",
@@ -7638,7 +7709,8 @@
       "stackable": true,
       "type": "arcane-item",
       "onePerArmy": false,
-      "name": "warpstone tokens"
+      "name": "warpstone tokens",
+      "armyComposition": "sk-renegade"
     }
   ],
   "vampire-counts": [

@@ -618,6 +618,35 @@
       }
     ]
   },
+  "clanrats renegade": {
+    "url": "unit/clanrats-renegade",
+    "stats": [
+      {
+        "Name": "Clanrat",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "4"
+      },
+      {
+        "Name": "Clawleader",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "2",
+        "Ld": "5"
+      }
+    ]
+  },
   "cold one chariot renegade": {
     "url": "unit/cold-one-chariot-renegade",
     "stats": [
@@ -1208,6 +1237,47 @@
       }
     ]
   },
+  "doomwheel renegade": {
+    "url": "unit/doomwheel-renegade",
+    "stats": [
+      {
+        "Name": "Doomwheel",
+        "M": "3D6",
+        "WS": "-",
+        "BS": "-",
+        "S": "6",
+        "T": "5",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Warlock (x1)",
+        "M": "-",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "3",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Rats",
+        "M": "-",
+        "WS": "2",
+        "BS": "0",
+        "S": "2",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "2D6",
+        "Ld": "5"
+      }
+    ]
+  },
   "exalted seeker chariot of slaanesh renegade": {
     "url": "unit/exalted-seeker-chariot-of-slaanesh-renegade",
     "stats": [
@@ -1341,6 +1411,47 @@
       }
     ]
   },
+  "giant rats renegade": {
+    "url": "unit/giant-rats-renegade",
+    "stats": [
+      {
+        "Name": "Giant Rat",
+        "M": "6",
+        "WS": "2",
+        "BS": "0",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "3"
+      },
+      {
+        "Name": "Packmaster",
+        "M": "6",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "6"
+      },
+      {
+        "Name": "Master Moulder",
+        "M": "6",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
   "grave guard renegade": {
     "url": "unit/grave-guard-renegade",
     "stats": [
@@ -1387,6 +1498,52 @@
       }
     ]
   },
+  "grey seer renegade": {
+    "url": "unit/grey-seer-renegade",
+    "stats": [
+      {
+        "Name": "Grey Seer",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "3",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "gutter runners renegade": {
+    "url": "unit/gutter-runners-renegade",
+    "stats": [
+      {
+        "Name": "Gutter Runner",
+        "M": "6",
+        "WS": "4",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "7"
+      },
+      {
+        "Name": "Assassin",
+        "M": "6",
+        "WS": "4",
+        "BS": "5",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
   "har ganeth executioners renegade": {
     "url": "unit/har-ganeth-executioners-renegade",
     "stats": [
@@ -1430,6 +1587,23 @@
         "I": "5",
         "A": "2",
         "Ld": "6"
+      }
+    ]
+  },
+  "hell pit abomination renegade": {
+    "url": "unit/hell-pit-abomination-renegade",
+    "stats": [
+      {
+        "Name": "Hell Pit Abomination",
+        "M": "3D6",
+        "WS": "3",
+        "BS": "1",
+        "S": "6",
+        "T": "6",
+        "W": "6",
+        "I": "4",
+        "A": "D6+1",
+        "Ld": "8"
       }
     ]
   },
@@ -1658,6 +1832,23 @@
       }
     ]
   },
+  "master assassin renegade": {
+    "url": "unit/master-assassin-renegade",
+    "stats": [
+      {
+        "Name": "Master Assassin",
+        "M": "6",
+        "WS": "8",
+        "BS": "7",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "8",
+        "A": "4",
+        "Ld": "7"
+      }
+    ]
+  },
   "master necromancer renegade": {
     "url": "unit/master-necromancer-renegade",
     "stats": [
@@ -1733,6 +1924,35 @@
       }
     ]
   },
+  "night runners renegade": {
+    "url": "unit/night-runners-renegade",
+    "stats": [
+      {
+        "Name": "Night Runner",
+        "M": "6",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "5"
+      },
+      {
+        "Name": "Nightleader",
+        "M": "6",
+        "WS": "3",
+        "BS": "4",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "5"
+      }
+    ]
+  },
   "nurglings renegade": {
     "url": "unit/nurglings-renegade",
     "stats": [
@@ -1796,6 +2016,23 @@
       }
     ]
   },
+  "plague censer bearers renegade": {
+    "url": "unit/plague-censer-bearers-renegade",
+    "stats": [
+      {
+        "Name": "Censer Bearer",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "5"
+      }
+    ]
+  },
   "plague drones of nurgle renegade": {
     "url": "unit/plague-drones-of-nurgle-renegade",
     "stats": [
@@ -1837,6 +2074,81 @@
       }
     ]
   },
+  "plague furnace renegade": {
+    "url": "unit/plague-furnace-renegade",
+    "stats": [
+      {
+        "Name": "Plague Furnace",
+        "M": "5",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "6",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Plague Monk Crew (x3)",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "3",
+        "T": "-",
+        "W": "-",
+        "I": "3",
+        "A": "2",
+        "Ld": "5"
+      }
+    ]
+  },
+  "plague monks renegade": {
+    "url": "unit/plague-monks-renegade",
+    "stats": [
+      {
+        "Name": "Plague Monk",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "1",
+        "Ld": "5"
+      },
+      {
+        "Name": "Plague Deacon",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "1",
+        "I": "3",
+        "A": "2",
+        "Ld": "5"
+      }
+    ]
+  },
+  "plague priest renegade": {
+    "url": "unit/plague-priest-renegade",
+    "stats": [
+      {
+        "Name": "Plague Priest",
+        "M": "5",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "5",
+        "W": "2",
+        "I": "5",
+        "A": "3",
+        "Ld": "6"
+      }
+    ]
+  },
   "plaguebearers of nurgle renegade": {
     "url": "unit/plaguebearers-of-nurgle-renegade",
     "stats": [
@@ -1863,6 +2175,110 @@
         "I": "2",
         "A": "2",
         "Ld": "7"
+      }
+    ]
+  },
+  "plagueclaw catapult renegade": {
+    "url": "unit/plagueclaw-catapult-renegade",
+    "stats": [
+      {
+        "Name": "Plagueclaw Catapult",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "-",
+        "T": "6",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Plague Monk Crew",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "4",
+        "W": "3",
+        "I": "2",
+        "A": "D3+3",
+        "Ld": "6"
+      }
+    ]
+  },
+  "poisoned wind globadiers renegade": {
+    "url": "unit/poisoned-wind-globadiers-renegade",
+    "stats": [
+      {
+        "Name": "Globadiers",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "5"
+      }
+    ]
+  },
+  "rat ogres renegade": {
+    "url": "unit/rat-ogres-renegade",
+    "stats": [
+      {
+        "Name": "Rat Ogre",
+        "M": "6",
+        "WS": "4",
+        "BS": "1",
+        "S": "5",
+        "T": "4",
+        "W": "3",
+        "I": "4",
+        "A": "3",
+        "Ld": "5"
+      },
+      {
+        "Name": "Packmaster",
+        "M": "6",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "6"
+      },
+      {
+        "Name": "Master Moulder",
+        "M": "6",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "rat swarms renegade": {
+    "url": "unit/rat-swarms-renegade",
+    "stats": [
+      {
+        "Name": "Rat Swarms",
+        "M": "6",
+        "WS": "2",
+        "BS": "0",
+        "S": "2",
+        "T": "2",
+        "W": "5",
+        "I": "4",
+        "A": "5",
+        "Ld": "4"
       }
     ]
   },
@@ -2023,6 +2439,35 @@
       }
     ]
   },
+  "screaming bell renegade": {
+    "url": "unit/screaming-bell-renegade",
+    "stats": [
+      {
+        "Name": "Screaming Bell",
+        "M": "5",
+        "WS": "-",
+        "BS": "-",
+        "S": "5",
+        "T": "6",
+        "W": "5",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Rat Ogre Crew (x1)",
+        "M": "-",
+        "WS": "3",
+        "BS": "0",
+        "S": "5",
+        "T": "-",
+        "W": "-",
+        "I": "4",
+        "A": "3",
+        "Ld": "5"
+      }
+    ]
+  },
   "seeker chariot of slaanesh renegade": {
     "url": "unit/seeker-chariot-of-slaanesh-renegade",
     "stats": [
@@ -2131,6 +2576,81 @@
         "I": "6",
         "A": "3",
         "Ld": "9"
+      }
+    ]
+  },
+  "skaven chieftain renegade": {
+    "url": "unit/skaven-chieftain-renegade",
+    "stats": [
+      {
+        "Name": "Skaven Chieftain",
+        "M": "5",
+        "WS": "5",
+        "BS": "4",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "6",
+        "A": "3",
+        "Ld": "6"
+      }
+    ]
+  },
+  "skaven dregs renegade": {
+    "url": "unit/skaven-dregs-renegade",
+    "stats": [
+      {
+        "Name": "Dreg-rat",
+        "M": "5",
+        "WS": "2",
+        "BS": "2",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "2"
+      },
+      {
+        "Name": "Packmaster",
+        "M": "6",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "4",
+        "A": "1",
+        "Ld": "6"
+      },
+      {
+        "Name": "Master Moulder",
+        "M": "6",
+        "WS": "5",
+        "BS": "3",
+        "S": "4",
+        "T": "4",
+        "W": "2",
+        "I": "5",
+        "A": "2",
+        "Ld": "7"
+      }
+    ]
+  },
+  "skaven warlord renegade": {
+    "url": "unit/skaven-warlord-renegade",
+    "stats": [
+      {
+        "Name": "Skaven Warlord",
+        "M": "5",
+        "WS": "6",
+        "BS": "4",
+        "S": "4",
+        "T": "4",
+        "W": "3",
+        "I": "7",
+        "A": "4",
+        "Ld": "7"
       }
     ]
   },
@@ -2274,6 +2794,35 @@
         "I": "1",
         "A": "4",
         "Ld": "4"
+      }
+    ]
+  },
+  "stormvermin renegade": {
+    "url": "unit/stormvermin-renegade",
+    "stats": [
+      {
+        "Name": "Stormvermin",
+        "M": "5",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "1",
+        "Ld": "5"
+      },
+      {
+        "Name": "Fangleader",
+        "M": "5",
+        "WS": "4",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "1",
+        "I": "5",
+        "A": "2",
+        "Ld": "6"
       }
     ]
   },
@@ -2468,6 +3017,86 @@
         "I": "4",
         "A": "1",
         "Ld": "8"
+      }
+    ]
+  },
+  "warlock engineer renegade": {
+    "url": "unit/warlock-engineer-renegade",
+    "stats": [
+      {
+        "Name": "Warlock Engineer",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "4",
+        "A": "2",
+        "Ld": "5"
+      }
+    ]
+  },
+  "warp lightning cannon renegade": {
+    "url": "unit/warp-lightning-cannon-renegade",
+    "stats": [
+      {
+        "Name": "Warp Lightning Cannon",
+        "M": "-",
+        "WS": "-",
+        "BS": "-",
+        "S": "-",
+        "T": "6",
+        "W": "4",
+        "I": "-",
+        "A": "-",
+        "Ld": "-"
+      },
+      {
+        "Name": "Engineer & Crew",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "3",
+        "I": "3",
+        "A": "3",
+        "Ld": "6"
+      }
+    ]
+  },
+  "warplock jezzails renegade": {
+    "url": "unit/warplock-jezzails-renegade",
+    "stats": [
+      {
+        "Name": "Jezzail Team",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "2",
+        "Ld": "5"
+      }
+    ]
+  },
+  "weapon team renegade": {
+    "url": "unit/weapon-team-renegade",
+    "stats": [
+      {
+        "Name": "Weapon Team Crew",
+        "M": "5",
+        "WS": "3",
+        "BS": "3",
+        "S": "3",
+        "T": "3",
+        "W": "2",
+        "I": "3",
+        "A": "2",
+        "Ld": "4"
       }
     ]
   },
