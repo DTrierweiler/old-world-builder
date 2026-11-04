@@ -12,6 +12,7 @@ import { Icon } from "../../components/icon";
 import { NumberInput } from "../../components/number-input";
 import { getGameSystems } from "../../utils/game-systems";
 import { getRandomId } from "../../utils/id";
+import { saveLocalLists } from "../../utils/list";
 import { useLanguage } from "../../utils/useLanguage";
 import { setLists } from "../../state/lists";
 import { updateSetting } from "../../state/settings";
@@ -43,9 +44,7 @@ export const NewList = ({ isMobile }) => {
     .filter(({ id }) => id === game)[0]
     .armies.sort((a, b) => a.id.localeCompare(b.id));
   const journalArmies = armies.find(({ id }) => army === id)?.armyComposition;
-  const armyGroups = gameSystems
-    .filter(({ id }) => id === game)[0]
-    .armyGroups;
+  const armyGroups = gameSystems.filter(({ id }) => id === game)[0].armyGroups;
   const versions = armies.find(({ id }) => army === id)?.versions;
   const compositionRules = [
     {
@@ -110,7 +109,7 @@ export const NewList = ({ isMobile }) => {
     const newLists = [newList, ...lists];
     const newSettings = { ...settings, lastChanged: new Date().toString() };
 
-    localStorage.setItem("owb.lists", JSON.stringify(newLists));
+    saveLocalLists(newLists);
     localStorage.setItem("owb.settings", JSON.stringify(newSettings));
     dispatch(setLists(newLists));
     dispatch(updateSetting({ lastChanged: newSettings.lastChanged }));
@@ -118,10 +117,16 @@ export const NewList = ({ isMobile }) => {
     setRedirect(newId);
   };
   const handleSystemChange = (event) => {
+    const gameSystem = gameSystems.filter(
+      ({ id }) => id === event.target.value,
+    )[0];
+    const army = gameSystem.armies[0];
+    const armyComposition = army.armyComposition[0];
+
     setGame(event.target.value);
-    setArmy(
-      gameSystems.filter(({ id }) => id === event.target.value)[0].armies[0].id,
-    );
+    setArmy(army.id);
+    setArmyComposition(armyComposition);
+    setVersion(null);
     setCompositionRule("open-war");
   };
   const handleArmyChange = (value) => {
@@ -273,6 +278,12 @@ export const NewList = ({ isMobile }) => {
             <p className="unit__notes new-list__unsupported-version">
               <Icon symbol="error" className="unit__notes-icon" />
               <FormattedMessage id="new.unsupportedVersion" />
+            </p>
+          ) : null}
+          {version && version.includes("1.5.") ? (
+            <p className="unit__notes new-list__unsupported-version">
+              <Icon symbol="error" className="unit__notes-icon" />
+              <FormattedMessage id="new.draftVersion" />
             </p>
           ) : null}
 

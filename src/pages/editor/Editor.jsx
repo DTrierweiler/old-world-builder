@@ -300,8 +300,15 @@ export const Editor = ({ isMobile }) => {
           />
         )}
         <section>
+          {list?.version && list.version.includes("1.5.") ? (
+            <p className="unit__notes">
+              <Icon symbol="error" className="unit__notes-icon" />
+              <FormattedMessage id="new.draftVersion" />
+            </p>
+          ) : null}
+
           {errors
-            .filter(({ section }) => section === "global")
+            .filter(({ section }) => section === "global" || section === "home")
             .map(({ message }) => (
               <ErrorMessage key={message} spaceAfter spaceBefore={isMobile}>
                 <FormattedMessage id={message} />
@@ -764,12 +771,6 @@ export const Editor = ({ isMobile }) => {
   );
 };
 
-/**
- * @param {object} props
- * @param {object[]} props.units
- * @param {string} props.type
- * @param {string} props.listId
- */
 export const OrderableUnitList = ({ units, type, listId, armyComposition }) => {
   const dispatch = useDispatch();
   const location = useLocation();

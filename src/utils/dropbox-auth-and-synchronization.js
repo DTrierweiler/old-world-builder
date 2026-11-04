@@ -6,6 +6,7 @@ import { updateLogin } from "../state/login";
 import { setSettings, updateSetting } from "../state/settings";
 import { setLists } from "../state/lists";
 import { getSyncFile, getDataFile } from "./file";
+import { saveLocalLists } from "./list";
 import { parseQueryString } from "../utils/query-string";
 
 const clientId = "7l38e9ahse786da";
@@ -77,7 +78,7 @@ export const useDropboxAuthentication = () => {
       dbxAuth.setCodeVerifier(window.sessionStorage.getItem("codeVerifier"));
       dbxAuth
         .getAccessTokenFromCode(
-          process.env.NODE_ENV === "development"
+          import.meta.env.NODE_ENV === "development"
             ? "http://localhost:5173/"
             : "https://old-world-builder.com/",
           code,
@@ -201,10 +202,7 @@ export const downloadRemoteDataFromDropbox = ({ dispatch }) => {
         dispatch(setSettings(newSettings));
         dispatch(updateLogin({ isSyncing: false, syncConflict: false }));
         isSyncing = false;
-        localStorage.setItem(
-          "owb.lists",
-          JSON.stringify(downloadedDataFile.lists),
-        );
+        saveLocalLists(downloadedDataFile.lists);
         localStorage.setItem("owb.settings", JSON.stringify(newSettings));
       };
     })

@@ -11,69 +11,33 @@ import { Icon } from "../../components/icon";
 import { ListItem, OrderableList } from "../../components/list";
 import { Header, Main } from "../../components/page";
 import { Dialog } from "../../components/dialog";
+import { ErrorMessage } from "../../components/error-message";
 import { getAllPoints } from "../../utils/points";
 import { useTimezone } from "../../utils/useTimezone";
 import { setArmy } from "../../state/army";
 import { setItems } from "../../state/items";
-import owb from "../../assets/army-icons/owb.svg";
-import theEmpire from "../../assets/army-icons/the-empire.svg";
-import dwarfs from "../../assets/army-icons/dwarfs.svg";
-import greenskins from "../../assets/army-icons/greenskins.svg";
-import beastmen from "../../assets/army-icons/beastmen.svg";
-import chaosDeamons from "../../assets/army-icons/chaos-deamons.svg";
-import chaosWarriors from "../../assets/army-icons/chaos-warriors.svg";
-import darkElves from "../../assets/army-icons/dark-elves.svg";
-import highElves from "../../assets/army-icons/high-elves.svg";
-import lizardmen from "../../assets/army-icons/lizardmen.svg";
-import ogres from "../../assets/army-icons/ogres.svg";
-import skaven from "../../assets/army-icons/skaven.svg";
-import tombKings from "../../assets/army-icons/tomb-kings.svg";
-import vampireCounts from "../../assets/army-icons/vampire-counts.svg";
-import woodElves from "../../assets/army-icons/wood-elves.svg";
-import chaosDwarfs from "../../assets/army-icons/chaos-dwarfs.svg";
-import bretonnia from "../../assets/army-icons/bretonnia.svg";
-import cathay from "../../assets/army-icons/cathay.svg";
-import renegade from "../../assets/army-icons/renegade.svg";
+import owb from "../../assets/owb.svg";
 import forg3dBanner from "../../assets/forg3d.jpg";
 import fantasyweltDe from "../../assets/fantasywelt_de.jpg";
 import fantasyweltEn from "../../assets/fantasywelt_en.jpg";
 import mwgForge from "../../assets/mwg-forge.gif";
 import { swap } from "../../utils/collection";
 import { useLanguage } from "../../utils/useLanguage";
-import { updateLocalList, updateListsFolder } from "../../utils/list";
+import {
+  saveLocalLists,
+  updateLocalList,
+  updateListsFolder,
+} from "../../utils/list";
 import { setLists, toggleFolder, updateList } from "../../state/lists";
 import { updateSetting } from "../../state/settings";
 import { getRandomId } from "../../utils/id";
 
 import "./Home.css";
 
-const armyIconMap = {
-  "the-empire": theEmpire,
-  dwarfs: dwarfs,
-  greenskins: greenskins,
-  "empire-of-man": theEmpire,
-  "orc-and-goblin-tribes": greenskins,
-  "dwarfen-mountain-holds": dwarfs,
-  "warriors-of-chaos": chaosWarriors,
-  "kingdom-of-bretonnia": bretonnia,
-  "beastmen-brayherds": beastmen,
-  "wood-elf-realms": woodElves,
-  "tomb-kings-of-khemri": tombKings,
-  "high-elf-realms": highElves,
-  "dark-elves": darkElves,
-  skaven: skaven,
-  "vampire-counts": vampireCounts,
-  "daemons-of-chaos": chaosDeamons,
-  "ogre-kingdoms": ogres,
-  lizardmen: lizardmen,
-  "chaos-dwarfs": chaosDwarfs,
-  "grand-cathay": cathay,
-  "renegade-crowns": renegade,
-};
-
 export const Home = ({ isMobile }) => {
   const MainComponent = isMobile ? Main : Fragment;
   const settings = useSelector((state) => state.settings);
+  const errors = useSelector((state) => state.errors);
   let lists = updateListsFolder(useSelector((state) => state.lists));
 
   // Sort lists based on the current sorting setting
@@ -214,7 +178,7 @@ export const Home = ({ isMobile }) => {
         });
         newLists = updateListsFolder(newLists);
 
-        localStorage.setItem("owb.lists", JSON.stringify(newLists));
+        saveLocalLists(newLists);
         dispatch(setLists(newLists));
 
         const newSettings = { ...settings, lastChanged: new Date().toString() };
@@ -226,7 +190,7 @@ export const Home = ({ isMobile }) => {
         swap(lists, sourceIndex, destinationIndex),
       );
 
-      localStorage.setItem("owb.lists", JSON.stringify(newLists));
+      saveLocalLists(newLists);
       dispatch(setLists(newLists));
 
       const newSettings = { ...settings, lastChanged: new Date().toString() };
@@ -357,7 +321,7 @@ export const Home = ({ isMobile }) => {
     setDialogOpen(null);
     setActiveMenu(null);
     dispatch(setLists(newLists));
-    localStorage.setItem("owb.lists", JSON.stringify(newLists));
+    saveLocalLists(newLists);
 
     const newSettings = { ...settings, lastChanged: new Date().toString() };
     dispatch(updateSetting({ lastChanged: newSettings.lastChanged }));
@@ -389,7 +353,7 @@ export const Home = ({ isMobile }) => {
       ...lists,
     ]);
 
-    localStorage.setItem("owb.lists", JSON.stringify(newLists));
+    saveLocalLists(newLists);
     dispatch(setLists(newLists));
 
     const newSettings = { ...settings, lastChanged: new Date().toString() };
@@ -573,6 +537,13 @@ export const Home = ({ isMobile }) => {
 
       {isMobile && <Header headline="Old World Builder" hasMainNavigation />}
       <MainComponent>
+        {errors
+          .filter(({ section }) => section === "home")
+          .map(({ message }) => (
+            <ErrorMessage key={message} spaceAfter spaceBefore>
+              <FormattedMessage id={message} />
+            </ErrorMessage>
+          ))}
         {listsWithoutFolders.length > 0 && (
           <section className="column-header home__header">
             <Button
@@ -760,11 +731,28 @@ export const Home = ({ isMobile }) => {
                       / {points} <FormattedMessage id="app.points" />
                     </p>
                   </span>
-                  <div className="home__info">
+                  <div
+                    className={classNames(
+                      "home__info",
+                      (settings.factionIcons === "owb" ||
+                        game !== "the-old-world") &&
+                        "home__info--owb",
+                    )}
+                  >
                     <img
                       height="40"
                       width="40"
-                      src={armyIconMap[army] || owb}
+                      src={
+                        game === "the-old-world"
+                          ? `${import.meta.env.BASE_URL}${
+                              settings.factionIcons === "owb"
+                                ? "army-icons"
+                                : "community-icons"
+                            }/${army}.${
+                              settings.factionIcons === "owb" ? "svg" : "png"
+                            }`
+                          : owb
+                      }
                       alt=""
                     />
                   </div>
